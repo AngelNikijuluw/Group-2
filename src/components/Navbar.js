@@ -4,11 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
-
-
-
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -54,23 +50,15 @@ function NavBar() {
             </Nav.Item>
 
             <NavDropdown title="Event">
-              <NavDropdown.Item href="/login">Course</NavDropdown.Item>
-              <NavDropdown.Item href="/HomeArtikel">
-                Artikel
-              </NavDropdown.Item>
-              
+              <NavDropdown.Item href="">Course</NavDropdown.Item>
+              <NavDropdown.Item href="/HomeArtikel">Artikel</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Item>
-              <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Nav.Link href="/login" target="_blank" rel="noreferrer">
                 Login
               </Nav.Link>
             </Nav.Item>
-            
           </Nav>
         </Navbar.Collapse>
       </Container>

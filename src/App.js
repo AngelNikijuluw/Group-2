@@ -2,10 +2,15 @@ import React, { useState, useEffect } from "react";
 import Preloader from "./pages/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home/Home";
-import Login from "./components/Login/Login";
+import Login from "./pages/Login/Login";
 import Footer from "./components/Footer";
 import HomeArtikel from "./pages/Artikel/Home_artikel";
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import ScrollToTop from "./pages/ScrollToTop";
 import "./style.css";
 import "./App.css";
