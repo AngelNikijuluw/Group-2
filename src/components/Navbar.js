@@ -55,7 +55,7 @@ function NavBar() {
             </NavDropdown>
 
             <Nav.Item>
-              <Nav.Link href="/login" target="_blank" rel="noreferrer">
+              <Nav.Link href="/login" rel="noreferrer">
                 Login
               </Nav.Link>
             </Nav.Item>

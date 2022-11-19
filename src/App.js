@@ -3,6 +3,7 @@ import Preloader from "./pages/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
+import SignUp from "./pages/SignUp/SignUp";
 import Footer from "./components/Footer";
 import HomeArtikel from "./pages/Artikel/Home_artikel";
 import {
@@ -33,15 +34,16 @@ function App() {
         <Preloader load={load} />
 
         <div className="App" id={load ? "no-scroll" : "scroll"}>
-          <Navbar />
-          <ScrollToTop />
+          {/*<Navbar />
+          <ScrollToTop /> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/HomeArtikel" element={<HomeArtikel />} />
             <Route path="/Login" element={<Login />} />
+            <Route path="/SignUp" element={<SignUp />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
-          <Footer />
+          {/*<Footer /> */}
         </div>
       </Router>
     </>

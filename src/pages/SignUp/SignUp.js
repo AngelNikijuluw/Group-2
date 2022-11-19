@@ -1,11 +1,14 @@
 import React from "react";
 
-export default function Login() {
+export default function Signup() {
   return (
     <div class="login-form">
       <form>
-        <h1>Login</h1>
+        <h1>Sign Up</h1>
         <div class="content">
+          <div class="input-field">
+            <input type="nama" placeholder="Nama" autocomplete="nope"></input>
+          </div>
           <div class="input-field">
             <input type="email" placeholder="Email" autocomplete="nope"></input>
           </div>
@@ -16,7 +19,7 @@ export default function Login() {
               autocomplete="new-password"
             ></input>
           </div>
-          <a href="." class="link">
+          <a href="#" class="link">
             Forgot Your Password?
           </a>
         </div>
@@ -24,12 +27,7 @@ export default function Login() {
           <button>Sign in</button>
         </div>
         <div class="google">
-          <button>Log in with Google</button>
-        </div>
-        <div>
-          <p>
-            Don’t have an account yet? <a href="/SignUp">Sign up</a>.
-          </p>
+          <button>Sign in Google</button>
         </div>
       </form>
     </div>
