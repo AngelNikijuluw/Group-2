@@ -44,10 +44,10 @@ function HomeArtikel() {
         <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
         <Card.Img variant="top" src={require('../../image/kategori1_artikel1.png')} />
       <Card.Body>
-        <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
+        <Card.Title>Hadapi Resesi 2023, Jangan Asal Memilih Instrument Investasi
       </Card.Title>
-        <Card.Text>
-        Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
+        <Card.Text style={{textAlign:"left"}}>
+        Resesi 2023, Benarkah Sangat Menyeramkan? Sejak beberapa bulan lalu, resesi 2023 jadi salah satu....
         </Card.Text>
       </Card.Body>
       <Card.Body>

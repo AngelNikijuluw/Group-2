@@ -16,6 +16,7 @@ import ScrollToTop from "./pages/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Artikel1 from "./pages/Artikel/Artikel1";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -34,16 +35,17 @@ function App() {
         <Preloader load={load} />
 
         <div className="App" id={load ? "no-scroll" : "scroll"}>
-          {/*<Navbar />
-          <ScrollToTop /> */}
+          <Navbar />
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/HomeArtikel" element={<HomeArtikel />} />
             <Route path="/Login" element={<Login />} />
             <Route path="/SignUp" element={<SignUp />} />
+            <Route path="/Artikel1" element={<Artikel1 />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
-          {/*<Footer /> */}
+          <Footer />
         </div>
       </Router>
     </>
