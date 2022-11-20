@@ -1,13 +1,15 @@
 import React from "react";
 import { Container, Row, Col, Card, CardGroup,Button,Form,InputGroup} from "react-bootstrap";
-import { Link } from "react-router-dom";
+import Layout from "../../components/Layout";
 
 function HomeArtikel() {
     return (
+      <Layout title="Tanam Uang | Artikel" showFooter showNavbar>
         <Container fluid className="home-about-section" id="about">
         <Container>
+        
             <section>
-            <p><span style={{ fontSize: "15px", color: "#ffff", fontWeight: "bold", fontFamily: "Inter", float:"left"}}>Course <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <p><span style={{ fontSize: "15px", color: "#ffff", fontWeight: "bold", fontFamily: "Inter", float:"left"}}>Event <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
             </svg></span><span style={{ color: "#7883BF", fontWeight: "bold", fontFamily: "Inter", fontSize: "16px", marginLeft: "10px", float:"left" }}>Artikel</span></p>
             </section>
@@ -61,7 +63,7 @@ function HomeArtikel() {
       <Card.Body>
         <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
       </Card.Title>
-        <Card.Text>
+        <Card.Text style={{textAlign:"left"}}>
         Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
         </Card.Text>
       </Card.Body>
@@ -76,7 +78,7 @@ function HomeArtikel() {
       <Card.Body>
         <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
       </Card.Title>
-        <Card.Text>
+        <Card.Text style={{textAlign:"left"}}>
         Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
         </Card.Text>
       </Card.Body>
@@ -94,7 +96,7 @@ function HomeArtikel() {
       <Card.Body>
         <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
       </Card.Title>
-        <Card.Text>
+        <Card.Text style={{textAlign:"left"}}>
         Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
         </Card.Text>
       </Card.Body>
@@ -109,7 +111,7 @@ function HomeArtikel() {
       <Card.Body>
         <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
       </Card.Title>
-        <Card.Text>
+        <Card.Text style={{textAlign:"left"}}>
         Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
         </Card.Text>
       </Card.Body>
@@ -124,7 +126,7 @@ function HomeArtikel() {
       <Card.Body>
         <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
       </Card.Title>
-        <Card.Text>
+        <Card.Text style={{textAlign:"left"}}>
         Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
         </Card.Text>
       </Card.Body>
@@ -142,7 +144,7 @@ function HomeArtikel() {
       <Card.Body>
         <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
       </Card.Title>
-        <Card.Text>
+        <Card.Text style={{textAlign:"left"}}>
         Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
         </Card.Text>
       </Card.Body>
@@ -157,7 +159,7 @@ function HomeArtikel() {
       <Card.Body >
         <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
       </Card.Title>
-        <Card.Text>
+        <Card.Text style={{textAlign:"left"}}>
         Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
         </Card.Text>
       </Card.Body>
@@ -169,10 +171,10 @@ function HomeArtikel() {
 
         <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
         <Card.Img variant="top" src={require('../../image/kategori1_artikel3.png')} />
-      <Card.Body>
-        <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
+      <Card.Body >
+        <Card.Title >Cara Mudah Mengelola Keuangan Bagi Pemula
       </Card.Title>
-        <Card.Text>
+        <Card.Text style={{textAlign:"left"}}>
         Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
         </Card.Text>
       </Card.Body>
@@ -209,8 +211,11 @@ function HomeArtikel() {
     <br></br>
     <br></br>
     <br></br>
+    
         </Container>
         </Container>
+        </Layout>
+        
     );
 }
 export default HomeArtikel;

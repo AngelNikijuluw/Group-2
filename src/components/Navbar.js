@@ -50,7 +50,7 @@ function NavBar() {
             </Nav.Item>
 
             <NavDropdown title="Event">
-              <NavDropdown.Item href="">Course</NavDropdown.Item>
+              <NavDropdown.Item href="/HomeCourse">Course</NavDropdown.Item>
               <NavDropdown.Item href="/HomeArtikel">Artikel</NavDropdown.Item>
             </NavDropdown>
 
