@@ -236,9 +236,31 @@ button:focus {
 }
 
 .home-section {
-  position: relative;
+  position: relativa;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.png);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+
+.home-login {
+  position: relativa;
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/bg-login.png);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+
+.home-signup {
+  position: relativa;
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/bg-login.png);
   background-size: 100%;
   background-position: top center;
   background-repeat: no-repeat;
@@ -755,11 +777,10 @@ button{
 .login-form .action button {
   width: 30%;
   border: none;
-  padding: 18px;
+  padding: 12px;
   margin-left: 170px;
   font-family: 'Rubik', sans-serif;
   cursor: pointer;
-  text-transform: uppercase;
   background: blueviolet;
   color: white;
   border-bottom-left-radius: 4px;
@@ -812,5 +833,7 @@ font-weight: bold;
 .menu-hover ul:hover{
   background: wheat;
 }
+
+
 
 
