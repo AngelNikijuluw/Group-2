@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import Layout from "../../components/Layout";
 import {
   Container,
@@ -14,17 +13,8 @@ import {
 
 function Artikel1() {
   return (
-    <Layout title="Tanam Uang | Home" showFooter showNavbar>
+    <Layout title="Tanam Uang | Artikel" showFooter showNavbar>
       <Container fluid className="home-about-section" id="about">
-=======
-import { Container, Row, Col, Card, CardGroup,Button,Form,InputGroup} from "react-bootstrap";
-import Layout from "../../components/Layout";
-
-function Artikel1() {
-    return (
-        <Layout title="Tanam Uang | Artikel" showFooter showNavbar>
-        <Container fluid className="home-about-section" id="about">
->>>>>>> 67286ad (add course)
         <Container>
           <section style={{ color: "white", paddingTop: "100px" }}>
             <h3>
@@ -346,15 +336,8 @@ function Artikel1() {
           <br></br>
           <br></br>
         </Container>
-<<<<<<< HEAD
       </Container>
     </Layout>
   );
-=======
-        </Container>
-        </Layout>
-        
-    );
->>>>>>> 67286ad (add course)
 }
 export default Artikel1;

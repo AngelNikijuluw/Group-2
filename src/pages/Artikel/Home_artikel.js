@@ -1,25 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-import { Container, Row, Col, Card, CardGroup,Button,Form,InputGroup} from "react-bootstrap";
-import Layout from "../../components/Layout";
-
-function HomeArtikel() {
-    return (
-      <Layout title="Tanam Uang | Artikel" showFooter showNavbar>
-        <Container fluid className="home-about-section" id="about">
-        <Container>
-        
-            <section>
-            <p><span style={{ fontSize: "15px", color: "#ffff", fontWeight: "bold", fontFamily: "Inter", float:"left"}}>Event <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg></span><span style={{ color: "#7883BF", fontWeight: "bold", fontFamily: "Inter", fontSize: "16px", marginLeft: "10px", float:"left" }}>Artikel</span></p>
-            </section>
-            <br></br>
-            <br></br>
-            <br></br>
-            
-            <section>
-=======
 import Layout from "../../components/Layout";
 import {
   Container,
@@ -83,7 +62,6 @@ function HomeArtikel() {
           <br></br>
 
           <section>
->>>>>>> fde3570 (Add profile ,fix link, delete trash)
             <InputGroup className="col-5">
               <Form.Control
                 placeholder="Search"
@@ -123,64 +101,6 @@ function HomeArtikel() {
             </p>
           </section>
 
-<<<<<<< HEAD
-      <section className='buttonartikel'>
-      <Button  className='buttonartikel' >Perencanaan Keuangan</Button>
-      <Button variant="outline-primary" className='buttonartikel' >Investasi</Button>
-      <Button variant="outline-primary" className='buttonartikel'>Saham</Button>
-      <Button variant="outline-primary" className='buttonartikel'>Bisnis</Button>
-      
-      </section>
-        
-      
-      <section>
-      <Row style={{marginTop:"100px", color:"#ffff"}}>
-        <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-        <Card.Img variant="top" src={require('../../image/kategori1_artikel1.png')} />
-      <Card.Body>
-        <Card.Title>Hadapi Resesi 2023, Jangan Asal Memilih Instrument Investasi
-      </Card.Title>
-        <Card.Text style={{textAlign:"left"}}>
-        Resesi 2023, Benarkah Sangat Menyeramkan? Sejak beberapa bulan lalu, resesi 2023 jadi salah satu....
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="/Artikel1">Read More</Card.Link>
-      </Card.Body>
-    </Card>
-      </Col>
-      
-        <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-        <Card.Img variant="top" src={require('../../image/kategori1_artikel2.png')} />
-      <Card.Body>
-        <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
-      </Card.Title>
-        <Card.Text style={{textAlign:"left"}}>
-        Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#">Read More</Card.Link>
-      </Card.Body>
-    </Card>
-      </Col>
-
-        <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-        <Card.Img variant="top" src={require('../../image/kategori1_artikel3.png')} />
-      <Card.Body>
-        <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
-      </Card.Title>
-        <Card.Text style={{textAlign:"left"}}>
-        Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#">Read More</Card.Link>
-      </Card.Body>
-    </Card>
-      </Col>
-      </Row>
-=======
           <section className="buttonartikel">
             <Button className="buttonartikel">Perencanaan Keuangan</Button>
             <Button variant="outline-primary" className="buttonartikel">
@@ -223,7 +143,6 @@ function HomeArtikel() {
                   </Card.Body>
                 </Card>
               </Col>
->>>>>>> fde3570 (Add profile ,fix link, delete trash)
 
               <Col sm>
                 <Card
@@ -252,54 +171,6 @@ function HomeArtikel() {
                 </Card>
               </Col>
 
-<<<<<<< HEAD
-      <Row style={{marginTop:"100px", color:"#ffff"}}>
-        <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-        <Card.Img variant="top" src={require('../../image/kategori1_artikel1.png')} />
-      <Card.Body>
-        <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
-      </Card.Title>
-        <Card.Text style={{textAlign:"left"}}>
-        Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#">Read More</Card.Link>
-      </Card.Body>
-    </Card>
-      </Col>
-      
-        <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-        <Card.Img variant="top" src={require('../../image/kategori1_artikel2.png')} />
-      <Card.Body>
-        <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
-      </Card.Title>
-        <Card.Text style={{textAlign:"left"}}>
-        Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#">Read More</Card.Link>
-      </Card.Body>
-    </Card>
-      </Col>
-
-        <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-        <Card.Img variant="top" src={require('../../image/kategori1_artikel3.png')} />
-      <Card.Body>
-        <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
-      </Card.Title>
-        <Card.Text style={{textAlign:"left"}}>
-        Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#">Read More</Card.Link>
-      </Card.Body>
-    </Card>
-      </Col>
-      </Row>
-=======
               <Col sm>
                 <Card
                   style={{
@@ -355,7 +226,6 @@ function HomeArtikel() {
                   </Card.Body>
                 </Card>
               </Col>
->>>>>>> fde3570 (Add profile ,fix link, delete trash)
 
               <Col sm>
                 <Card
@@ -384,59 +254,6 @@ function HomeArtikel() {
                 </Card>
               </Col>
 
-<<<<<<< HEAD
-      <Row style={{marginTop:"100px", color:"#ffff"}}>
-        <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-        <Card.Img variant="top" src={require('../../image/kategori1_artikel1.png')} />
-      <Card.Body>
-        <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
-      </Card.Title>
-        <Card.Text style={{textAlign:"left"}}>
-        Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#">Read More</Card.Link>
-      </Card.Body>
-    </Card>
-      </Col>
-      
-        <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-        <Card.Img variant="top" src={require('../../image/kategori1_artikel2.png')} />
-      <Card.Body >
-        <Card.Title>Cara Mudah Mengelola Keuangan Bagi Pemula
-      </Card.Title>
-        <Card.Text style={{textAlign:"left"}}>
-        Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#">Read More</Card.Link>
-      </Card.Body>
-    </Card>
-      </Col>
-
-        <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-        <Card.Img variant="top" src={require('../../image/kategori1_artikel3.png')} />
-      <Card.Body >
-        <Card.Title >Cara Mudah Mengelola Keuangan Bagi Pemula
-      </Card.Title>
-        <Card.Text style={{textAlign:"left"}}>
-        Ada banyak cara mengelola keuangan, dari yang mudah hingga yang sulit. namun....
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#">Read More</Card.Link>
-      </Card.Body>
-    </Card>
-      </Col>
-      </Row>
-</section>
-<section style={{marginTop:"100px"}}>
-  <p><svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-</svg>
-=======
               <Col sm>
                 <Card
                   style={{
@@ -492,7 +309,6 @@ function HomeArtikel() {
                   </Card.Body>
                 </Card>
               </Col>
->>>>>>> fde3570 (Add profile ,fix link, delete trash)
 
               <Col sm>
                 <Card
@@ -576,22 +392,6 @@ function HomeArtikel() {
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312V4.002Z" />
               </svg>
 
-<<<<<<< HEAD
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg>
-</p>
-</section>
-    <br></br>
-    <br></br>
-    <br></br>
-    
-        </Container>
-        </Container>
-        </Layout>
-        
-    );
-=======
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
@@ -637,6 +437,5 @@ function HomeArtikel() {
       </Container>
     </Layout>
   );
->>>>>>> fde3570 (Add profile ,fix link, delete trash)
 }
 export default HomeArtikel;
