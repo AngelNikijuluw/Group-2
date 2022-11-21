@@ -215,8 +215,11 @@ function HomeCourse() {
             </Row>
 
             <Row style={{marginTop:"100px", color:"#ffff"}}>
-                <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-                <Card.Img variant="top" src={require('../../image/course4.png')} />
+                <Col sm>
+                
+                    <Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
+                    <Link to="/ContentCourse">
+                <Card.Img variant="top" src={require('../../image/course4.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>

@@ -20,6 +20,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Artikel1 from "./pages/Artikel/Artikel1";
 import Course1 from "./pages/Course/Course1";
+import ContentCourse from "./pages/Course/Content_Course";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -49,6 +50,7 @@ function App() {
             <Route path="/Profile" element={<Profile />} />
             <Route path="/Artikel1" element={<Artikel1 />} />
             <Route path="/Course1" element={<Course1 />} />
+            <Route path="/ContentCourse" element={<ContentCourse />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           {/* <Footer /> */}
