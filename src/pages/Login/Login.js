@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillGoogleCircle } from "react-icons/ai";
 
 export default function Login() {
   return (
@@ -24,7 +25,12 @@ export default function Login() {
           <button>Sign in</button>
         </div>
         <div class="google">
-          <button>Log in with Google</button>
+          <button>
+            <a>
+              <AiFillGoogleCircle />
+            </a>
+            Log in with Google
+          </button>
         </div>
         <div>
           <p>

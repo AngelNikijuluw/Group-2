@@ -10,7 +10,6 @@ import {
   AiOutlineFacebook,
   AiOutlineYoutube,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   return (
