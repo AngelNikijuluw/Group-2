@@ -22,7 +22,7 @@ function Artikel2() {
             </h3>
             <Card.Img
               variant="top"
-              src={require("../../image/kategori1_artikel2.png")}
+              src={require("../../image/kategori1_2.png")}style={{height:"500px"}}
             />
             <Card.Text>
               <span>9 Septembber 2022</span>
@@ -115,159 +115,89 @@ function Artikel2() {
               </Card.Body>
             </Card>
 
-            <h1 style={{ paddingTop: "100px" }}>
-              <Row>
-                <Col sm={3} style={{ color: "white", fontSize: "30px" }}>
-                  Recent Article
-                </Col>
-              </Row>
-            </h1>
-            <Row>
-              <Col xs={6} md={3}>
+            <Row style={{ marginTop: "100px", color: "#ffff" }}>
+              <Col sm>
                 <Card
-                  className="xs=6 md=4 card bg-dark card text-light"
-                  style={{ boxShadow: "3px 2px 1px white" }}
+                  style={{
+                    width: "18rem",
+                    backgroundColor: "#332F2F",
+                    boxShadow: "3px 2px 1px white",
+                  }}
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/artikel1.png")}
+                    src={require("../../image/kategori1_4.jpg")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
-                    <Card.Title
-                      style={{ fontWeight: "bold", fontFamily: "Inter" }}
-                    >
-                      Mengenal Jenis Investasi yang Cocok Untuk Pemula
+                    <Card.Title>
+                    Perencanaan Keuangan: Manfaat untuk Pribadi
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Inter", fontSize: "14px" }}
-                    >
-                      Beberapa contoh investasi yang cocok untuk pemula di
-                      antaranya longer.
+                    <Card.Text>
+                    Dalam melakukan apapun, menyusun rencana akan membuat hal yang ingin dikerjakan menjadi lebih....
                     </Card.Text>
-                    Read More{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-caret-right"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-                    </svg>
+                  </Card.Body>
+                  <Card.Body>
+                  <Card.Link href="/Artikel4">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={6} md={3}>
+
+              <Col sm>
                 <Card
-                  className="xs=6 md=4 card bg-dark card text-light"
-                  style={{ boxShadow: "3px 2px 1px white" }}
+                  style={{
+                    width: "18rem",
+                    backgroundColor: "#332F2F",
+                    boxShadow: "3px 2px 1px white",
+                  }}
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/artikel2.png")}
+                    src={require("../../image/kategori1_5.jpg")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
-                    <Card.Title
-                      style={{ fontWeight: "bold", fontFamily: "Inter" }}
-                    >
-                      Mengenal Jenis Investasi yang Cocok Untuk Pemula
+                    <Card.Title>
+                    Perencanaan Keuangan Yang Baik Diperlukan
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Inter", fontSize: "14px" }}
-                    >
-                      Beberapa contoh investasi yang cocok untuk pemula di
-                      antaranya longer.
+                    <Card.Text>
+                    Apa yang paling penting direncanakan dalam merencanakan keuangan? Secara garis besar....
                     </Card.Text>
-                    Read More{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-caret-right"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-                    </svg>
+                  </Card.Body>
+                  <Card.Body>
+                  <Card.Link href="/Artikel5">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={6} md={3}>
+
+              <Col sm>
                 <Card
-                  className="xs=6 md=4 card bg-dark card text-light"
-                  style={{ boxShadow: "3px 2px 1px white" }}
+                  style={{
+                    width: "18rem",
+                    backgroundColor: "#332F2F",
+                    boxShadow: "3px 2px 1px white",
+                  }}
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/artikel3.png")}
+                    src={require("../../image/kategori1_6.jpeg")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
-                    <Card.Title
-                      style={{ fontWeight: "bold", fontFamily: "Inter" }}
-                    >
-                      Mengenal Jenis Investasi yang Cocok Untuk Pemula
+                    <Card.Title>
+                    Pentingnya Perencanaan Keuangan dalam Keluarga
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Inter", fontSize: "14px" }}
-                    >
-                      Beberapa contoh investasi yang cocok untuk pemula di
-                      antaranya longer.
+                    <Card.Text>
+                    Salah satu poin krusial dalam perencanaan keuangan adalah menentukan pos pengeluaran. Di titik ....
                     </Card.Text>
-                    Read More{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-caret-right"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-                    </svg>
                   </Card.Body>
-                </Card>
-              </Col>
-              <Col xs={6} md={3}>
-                <Card
-                  className="xs=6 md=4 card bg-dark card text-light"
-                  style={{ boxShadow: "3px 2px 1px white" }}
-                >
-                  <Card.Img
-                    variant="top"
-                    src={require("../../image/artikel4.png")}
-                  />
                   <Card.Body>
-                    <Card.Title
-                      style={{ fontWeight: "bold", fontFamily: "Inter" }}
-                    >
-                      Mengenal Jenis Investasi yang Cocok Untuk Pemula
-                    </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Inter", fontSize: "14px" }}
-                    >
-                      Beberapa contoh investasi yang cocok untuk pemula di
-                      antaranya longer.
-                    </Card.Text>
-                    Read More{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-caret-right"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-                    </svg>
+                  <Card.Link href="/Artikel6">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
             </Row>
           </section>
-          <br></br>
-          <br></br>
-          <br></br>
         </Container>
       </Container>
     </Layout>

@@ -126,7 +126,8 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_artikel1.png")}
+                    src={require("../../image/kategori1_artikel1.png")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
                     <Card.Title>
@@ -154,7 +155,8 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_artikel2.png")}
+                    src={require("../../image/kategori1_2.png")} style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
                     <Card.Title>
@@ -180,15 +182,15 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_artikel3.png")}
+                    src={require("../../image/kategori1_3.png")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
                     <Card.Title>
-                      Cara Mudah Mengelola Keuangan Bagi Pemula
+                    Mengelola Keuangan  Bijak  bagi Mahasiswa
                     </Card.Title>
                     <Card.Text>
-                      Ada banyak cara mengelola keuangan, dari yang mudah hingga
-                      yang sulit. namun....
+                    Tentu saja hal yang pertama kali kita lakukan untuk mengelola keuangan adalah dengan menyusun skala prioritas. Kita harus..
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
@@ -209,15 +211,15 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_artikel1.png")}
+                    src={require("../../image/kategori1_4.jpg")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
                     <Card.Title>
-                      Cara Mudah Mengelola Keuangan Bagi Pemula
+                    Perencanaan Keuangan: Manfaat untuk Pribadi
                     </Card.Title>
                     <Card.Text>
-                      Ada banyak cara mengelola keuangan, dari yang mudah hingga
-                      yang sulit. namun....
+                    Dalam melakukan apapun, menyusun rencana akan membuat hal yang ingin dikerjakan menjadi lebih....
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
@@ -236,15 +238,15 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_artikel2.png")}
+                    src={require("../../image/kategori1_5.jpg")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
                     <Card.Title>
-                      Cara Mudah Mengelola Keuangan Bagi Pemula
+                    Perencanaan Keuangan Yang Baik Diperlukan
                     </Card.Title>
                     <Card.Text>
-                      Ada banyak cara mengelola keuangan, dari yang mudah hingga
-                      yang sulit. namun....
+                    Apa yang paling penting direncanakan dalam merencanakan keuangan? Secara garis besar....
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
@@ -263,15 +265,15 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_artikel3.png")}
+                    src={require("../../image/kategori1_6.jpeg")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
                     <Card.Title>
-                      Cara Mudah Mengelola Keuangan Bagi Pemula
+                    Pentingnya Perencanaan Keuangan dalam Keluarga
                     </Card.Title>
                     <Card.Text>
-                      Ada banyak cara mengelola keuangan, dari yang mudah hingga
-                      yang sulit. namun....
+                    Salah satu poin krusial dalam perencanaan keuangan adalah menentukan pos pengeluaran. Di titik ....
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
@@ -281,88 +283,7 @@ function HomeArtikel() {
               </Col>
             </Row>
 
-            <Row style={{ marginTop: "100px", color: "#ffff" }}>
-              <Col sm>
-                <Card
-                  style={{
-                    width: "18rem",
-                    backgroundColor: "#332F2F",
-                    boxShadow: "3px 2px 1px white",
-                  }}
-                >
-                  <Card.Img
-                    variant="top"
-                    src={require("../../image/kategori1_artikel1.png")}
-                  />
-                  <Card.Body>
-                    <Card.Title>
-                      Cara Mudah Mengelola Keuangan Bagi Pemula
-                    </Card.Title>
-                    <Card.Text>
-                      Ada banyak cara mengelola keuangan, dari yang mudah hingga
-                      yang sulit. namun....
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Body>
-                  <Card.Link href="/Artikel7">Read More</Card.Link>
-                  </Card.Body>
-                </Card>
-              </Col>
-
-              <Col sm>
-                <Card
-                  style={{
-                    width: "18rem",
-                    backgroundColor: "#332F2F",
-                    boxShadow: "3px 2px 1px white",
-                  }}
-                >
-                  <Card.Img
-                    variant="top"
-                    src={require("../../image/kategori1_artikel2.png")}
-                  />
-                  <Card.Body>
-                    <Card.Title>
-                      Cara Mudah Mengelola Keuangan Bagi Pemula
-                    </Card.Title>
-                    <Card.Text>
-                      Ada banyak cara mengelola keuangan, dari yang mudah hingga
-                      yang sulit. namun....
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Body>
-                  <Card.Link href="/Artikel8">Read More</Card.Link>
-                  </Card.Body>
-                </Card>
-              </Col>
-
-              <Col sm>
-                <Card
-                  style={{
-                    width: "18rem",
-                    backgroundColor: "#332F2F",
-                    boxShadow: "3px 2px 1px white",
-                  }}
-                >
-                  <Card.Img
-                    variant="top"
-                    src={require("../../image/kategori1_artikel3.png")}
-                  />
-                  <Card.Body>
-                    <Card.Title>
-                      Cara Mudah Mengelola Keuangan Bagi Pemula
-                    </Card.Title>
-                    <Card.Text>
-                      Ada banyak cara mengelola keuangan, dari yang mudah hingga
-                      yang sulit. namun....
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Body>
-                  <Card.Link href="/Artikel9">Read More</Card.Link>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
+            
           </section>
           <section style={{ marginTop: "100px" }}>
             <p>

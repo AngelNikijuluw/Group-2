@@ -18,11 +18,11 @@ function Artikel6() {
         <Container>
           <section style={{ color: "white", paddingTop: "100px" }}>
             <h3>
-              Hadapi Resesi 2023, Jangan Asal Memilih Instrument Investasi
+            Pentingnya Perencanaan Keuangan dalam Keluarga
             </h3>
             <Card.Img
               variant="top"
-              src={require("../../image/kategori1.png")}
+              src={require("../../image/kategori1_6.jpeg")}
             />
             <Card.Text>
               <span>10 november 2022</span>
@@ -87,254 +87,122 @@ function Artikel6() {
             <Card style={{ backgroundColor: "#262424" }}>
               <Card.Body>
                 <p style={{ textAlign: "left" }}>
-                  Resesi 2023, Benarkah Sangat Menyeramkan? Sejak beberapa bulan
-                  lalu, resesi 2023 jadi salah satu topik utama pembicaraan
-                  masyarakat dari segala lapisan. Hingga sukses menjadi momok
-                  yang menyeramkan. Mayoritas media memberitakan bahwa ini akan
-                  terjadi dalam waktu yang lama, dengan dampak berkali-kali
-                  lipat dari sebelumnya. Melansir laman cnbcindonesia.com,
-                  sebanyak 59 dari 83 ekonomi dari survei Reuters mengatakan hal
-                  serupa. Mereka memperkirakan The Fed akan menaikkan kembali
-                  suku bunga sebesar 75 basis poin di November. Kemudian satu
-                  bulan berselang, pada Desember, mereka kembali memperkirakan
-                  kalau The Fed akan menaikkan suku bunga sebesar 50 basis poin,
-                  menjadi 4,25-4,5%. Lalu di awal 2023, prediksinya The Fed akan
-                  menaikkan suku bunga kembali menjadi 4,5-4,75%. Sehingga, jika
-                  kondisinya nanti terjadi sesuai prediksi, maka suku bunga The
-                  Fed akan ada di level tertinggi sejak 2008. Tepatnya sebelum
-                  krisis finansial global terjadi. Ancaman Global Saat Resesi
-                  2023 Sementara itu, dalam kesempatan berbeda, Menteri Keuangan
-                  Republik Indonesia, Sri Mulyani, membeberkan tiga ancaman
-                  global yang harus kita waspadai saat resesi 2023 nanti, yaitu:
+                  
                   <ol>
                     <li>
-                      Pandemi Covid-19 yang sepenuhnya belum berakhir. Sri
-                      Mulyani mengatakan banyak negara yang masih terjerat
-                      penambahan kasus baru dan luka memar pasca pandemi.
+                    Rencana keuangan membantu menentukan prioritas pengeluaran
                     </li>
+                    <p>Salah satu poin krusial dalam perencanaan keuangan adalah menentukan pos pengeluaran. Di titik ini, Anda perlu membuat daftar prioritas yang berisi pos pengeluaran, mulai dari yang paling penting sampai yang paling bisa diabaikan untuk sementara waktu. Dengan menentukan prioritas pengeluaran, Anda bisa mengelola uang yang masuk dan keluar secara lebih efektif. Dan ketika daftar prioritas pengeluaran sudah dibuat, Anda bisa berjanji kepada diri sendiri untuk mematuhinya. Anda yang membuat daftarnya, Anda juga yang bertanggung jawab atasnya.</p>
                     <li>
-                      Perubahan iklim, yang sebenarnya bukan hanya terjadi di
-                      masa depan, tapi perlahan mulai kita rasakan sekarang.
+                    Rencana keuangan membantu mengatur alokasi pengeluaran
                     </li>
+                    <p>Cara mengatur alokasi pengeluaran adalah dengan mengacu pada daftar prioritas pengeluaran. Daftar tersebut sebaiknya jadi acuan ketika setiap bulan Anda ingin mengeluarkan uang untuk memenuhi berbagai macam kebutuhan. Taruhlah misalnya dalam sebulan Anda mesti mengeluarkan uang untuk dua tujuan berbeda: membeli laptop dan membayar uang SPP anak. Anda bisa melihat daftar perencanaan keuangan dan menentukan mana di antara dua kebutuhan itu yang paling penting, dan apakah keduanya bisa dipenuhi dalam waktu bersamaan.</p>
                     <li>
-                      Perang Rusia – Ukrania, sekaligus tekanan geopolitik dari
-                      negara-negara yang menguasai ekonomi mayoritas dunia.
+                    Mengawasi pengeluaran dengan rencana keuangan yang baik
                     </li>
+                    <p>Dengan mengawasi aliran uang rumah tangga, Anda bisa mempertahankan kondisi keuangan dalam jangka panjang. Selain itu pengawasan yang baik akan menjamin kesehatan kondisi finansial, sekaligus menjaga supaya tidak terjadi kebocoran anggaran keuangan rumah tangga. Satu tips pentingnya: jangan pernah menghamburkan anggaran untuk pos pengeluaran yang tidak krusial.</p>
+                    <li>Merencanakan tujuan finansial jangka pendek dan jangka panjang</li>
+                    <p>Kegunaan perencanaan finansial adalah untuk membayangkan keuangan keluarga dalam jangka waktu tertentu, baik dalam periode tahunan maupun per lima tahun. Misalnya, dalam jangka waktu 5 tahun ke depan, Anda perlu mempersiapkan biaya sekolah anak sehingga setiap bulannya Anda perlu menabung dalam nominal tertentu. Dengan membuat rencana jangka pendek dan panjang, Anda bisa sekaligus mengukur kualitas hidup Anda dan keluarga. Sebab toh sehatnya keluarga pertama-tama dimulai dari finansial yang sehat, kan?</p>
+                    <li> Menjadikan hidup lebih tenang dan sejahtera</li>
+                    <p></p>
                   </ol>
-                  [Baca Juga: Daftar Negara yang Dibayangi Resesi 2023,
-                  Indonesia Termasuk?] Jangan Sembarang Taruh Uang di Instrumen
-                  Investasi Berdasarkan pemberitaan di atas, resesi 2023 memang
-                  terasa menyeramkan. Bahkan tidak menutup kemungkinan, akan
-                  membuat kita lebih terpuruk ketimbang 2020 silam akibat
-                  pandemi. Bagi investor ulung, mungkin inilah salah satu
-                  kesempatan untuk borong emiten-emiten terdiskon. Hanya saja
-                  karena termakan FOMO, tidak sedikit investor pemula yang latah
-                  membeli saham terdiskon tanpa mempertimbangkan faktor
-                  setelahnya. Selain itu, tak jarang kita juga mendengar para
-                  ahli dengan gencar merekomendasikan untuk membeli emas agar
-                  aset tetap aman. Alhasil banyak yang berbondong-bondong
-                  menaikkan persentase portofolio emas mereka. Padahal, tidak
-                  ada yang mutlak benar dari semua rekomendasi ini. Sebab
-                  hakikatnya, investasi bersifat personal. Contohnya, portofolio
-                  investasi A tidak mungkin sama dengan portofolio investasi B.
-                  Karena setiap orang punya rencana dan tujuan keuangan yang
-                  berbeda. Boleh jadi instrumen investasi X mungkin cocok untuk
-                  tujuan keuangan A yang sifatnya jangka pendek. Sementara
-                  instrumen investasi X belum tentu bisa membantu B mencapai
-                  tujuan keuangannya, yang sifatnya jangka panjang. Rekomendasi
-                  Instrumen Investasi Saat Resesi Meski demikian, tidaklah haram
-                  hukumnya jika kita melihat beberapa rekomendasi instrumen
-                  investasi dari ahli sebagai bahan pertimbangan dan referensi,
-                  bukan sebagai pilihan mutlak. Seperti Gembong S., CSA, CFP®,
-                  QWP®, AEPP, QFE yang juga merekomendasikan beberapa instrumen
-                  investasi sebagai ‘zona aman’:
-                  <ul>
-                    <li>
-                      Reksa dana pasar uang (100% penempatan di deposito dan
-                      obligasi jangka pendek);
-                    </li>
-                    <li>
-                      Reksa dana pendapatan tetap dengan dominan fokus pada
-                      obligasi swasta;
-                    </li>
-                    <li>
-                      Obligasi Negara Ritel dengan tenor yang pendek, seperti
-                      ORI22 yang memberikan return sebesar 5,95% per tahun;
-                    </li>
-                    <li>Deposito.</li>
-                  </ul>
-                  Untuk mengetahui informasi selengkapnya, kamu bisa membaca
-                  rekomendasi Gembong melalui artikel Finansialku satu ini
-                  Resesi 2023 Bakal Terjadi? Ini yang Harus Dilakukan! Investasi
-                  Saat Resesi, Apa Instrumen yang Cocok untuk Saya? Jika kita
-                  tidak bisa menelan mentah-mentah rekomendasi instrumen
-                  investasi dari ahli, bagaimana cara menentukan instrumen
-                  investasi yang cocok untuk kita? Sobat Finansialku tidak perlu
-                  pusing memikirkannya sendiri. Apalagi meluangkan waktu lebih
-                  banyak untuk menemukan cara menyelamatkan aset investasi dari
-                  ancaman resesi. Semua kegalauan dan kekhawatiran yang
-                  dirasakan, bisa kamu bagi kepada Perencana Keuangan
-                  Finansialku yang akan membantumu mengevaluasi semuanya secara
-                  menyeluruh. Mulai dari menentukan instrumen investasi dengan
-                  porsi diversifikasi yang sesuai. Hingga evaluasi portofolio
-                  secara rutin agar tujuan keuanganmu tercapai tepat waktu.
+                  
                 </p>
               </Card.Body>
             </Card>
 
             <h1 style={{ paddingTop: "100px" }}>
-              <Row>
+            <Row>
                 <Col sm={3} style={{ color: "white", fontSize: "30px" }}>
                   Recent Article
                 </Col>
               </Row>
             </h1>
-            <Row>
-              <Col xs={6} md={3}>
+            <Row style={{ marginTop: "100px", color: "#ffff" }}>
+              <Col sm>
                 <Card
-                  className="xs=6 md=4 card bg-dark card text-light"
-                  style={{ boxShadow: "3px 2px 1px white" }}
+                  style={{
+                    width: "18rem",
+                    backgroundColor: "#332F2F",
+                    boxShadow: "3px 2px 1px white",
+                  }}
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/artikel1.png")}
+                    src={require("../../image/kategori1_artikel1.png")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
-                    <Card.Title
-                      style={{ fontWeight: "bold", fontFamily: "Inter" }}
-                    >
-                      Mengenal Jenis Investasi yang Cocok Untuk Pemula
+                    <Card.Title>
+                      Hadapi Resesi 2023, Jangan Asal Memilih Instrument
+                      Investasi
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Inter", fontSize: "14px" }}
-                    >
-                      Beberapa contoh investasi yang cocok untuk pemula di
-                      antaranya longer.
+                    <Card.Text style={{ textAlign: "left" }}>
+                      Resesi 2023, Benarkah Sangat Menyeramkan? Sejak beberapa
+                      bulan lalu, resesi 2023 jadi salah satu....
                     </Card.Text>
-                    Read More{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-caret-right"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-                    </svg>
+                  </Card.Body>
+                  <Card.Body>
+                    <Card.Link href="/Artikel1">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={6} md={3}>
+
+              <Col sm>
                 <Card
-                  className="xs=6 md=4 card bg-dark card text-light"
-                  style={{ boxShadow: "3px 2px 1px white" }}
+                  style={{
+                    width: "18rem",
+                    backgroundColor: "#332F2F",
+                    boxShadow: "3px 2px 1px white",
+                  }}
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/artikel2.png")}
+                    src={require("../../image/kategori1_2.png")} style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
-                    <Card.Title
-                      style={{ fontWeight: "bold", fontFamily: "Inter" }}
-                    >
-                      Mengenal Jenis Investasi yang Cocok Untuk Pemula
+                    <Card.Title>
+                    Cara Mengatur Keuangan dengan Seimbang 
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Inter", fontSize: "14px" }}
-                    >
-                      Beberapa contoh investasi yang cocok untuk pemula di
-                      antaranya longer.
+                    <Card.Text>
+                    Langkah pertama yang wajib dilakukan dalam mengatur keuangan adalah dengan menyusun sebuah anggaran keuangan .....
                     </Card.Text>
-                    Read More{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-caret-right"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-                    </svg>
+                  </Card.Body>
+                  <Card.Body>
+                  <Card.Link href="/Artikel2">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={6} md={3}>
+
+              <Col sm>
                 <Card
-                  className="xs=6 md=4 card bg-dark card text-light"
-                  style={{ boxShadow: "3px 2px 1px white" }}
+                  style={{
+                    width: "18rem",
+                    backgroundColor: "#332F2F",
+                    boxShadow: "3px 2px 1px white",
+                  }}
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/artikel3.png")}
+                    src={require("../../image/kategori1_3.png")}style=
+                    {{height:"180px"}}
                   />
                   <Card.Body>
-                    <Card.Title
-                      style={{ fontWeight: "bold", fontFamily: "Inter" }}
-                    >
-                      Mengenal Jenis Investasi yang Cocok Untuk Pemula
+                  <Card.Title>
+                    Mengelola Keuangan  Bijak  bagi Mahasiswa
                     </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Inter", fontSize: "14px" }}
-                    >
-                      Beberapa contoh investasi yang cocok untuk pemula di
-                      antaranya longer.
+                    <Card.Text>
+                    Tentu saja hal yang pertama kali kita lakukan untuk mengelola keuangan adalah dengan menyusun skala prioritas. Kita harus..
                     </Card.Text>
-                    Read More{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-caret-right"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-                    </svg>
                   </Card.Body>
-                </Card>
-              </Col>
-              <Col xs={6} md={3}>
-                <Card
-                  className="xs=6 md=4 card bg-dark card text-light"
-                  style={{ boxShadow: "3px 2px 1px white" }}
-                >
-                  <Card.Img
-                    variant="top"
-                    src={require("../../image/artikel4.png")}
-                  />
                   <Card.Body>
-                    <Card.Title
-                      style={{ fontWeight: "bold", fontFamily: "Inter" }}
-                    >
-                      Mengenal Jenis Investasi yang Cocok Untuk Pemula
-                    </Card.Title>
-                    <Card.Text
-                      style={{ fontFamily: "Inter", fontSize: "14px" }}
-                    >
-                      Beberapa contoh investasi yang cocok untuk pemula di
-                      antaranya longer.
-                    </Card.Text>
-                    Read More{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-caret-right"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
-                    </svg>
+                  <Card.Link href="/Artikel3">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
             </Row>
           </section>
-          <br></br>
-          <br></br>
-          <br></br>
         </Container>
       </Container>
     </Layout>

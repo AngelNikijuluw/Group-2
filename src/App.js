@@ -24,14 +24,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Artikel1 from "./pages/Artikel/Artikel1";
 import Course1 from "./pages/Course/Course1";
 import ContentCourse from "./pages/Course/Content_Course";
-import ContentCourse from "./pages/Course/Content_Course";
 import ContentCourse1 from "./pages/Course/ContentCourse1";
 import ContentCourse2 from "./pages/Course/ContentCourse2";
 import ContentCourse3 from "./pages/Course/ContentCourse3";
 import Artikel2 from "./pages/Artikel/Artikel2";
-import Artikel9 from "./pages/Artikel/Artikel9";
-import Artikel8 from "./pages/Artikel/Artikel8";
-import Artikel7 from "./pages/Artikel/Artikel7";
 import Artikel6 from "./pages/Artikel/Artikel6";
 import Artikel5 from "./pages/Artikel/Artikel5";
 import Artikel4 from "./pages/Artikel/Artikel4";
@@ -79,9 +75,6 @@ function App() {
             <Route path="/Artikel4" element={<Artikel4 />} />
             <Route path="/Artikel5" element={<Artikel5 />} />
             <Route path="/Artikel6" element={<Artikel6 />} />
-            <Route path="/Artikel7" element={<Artikel7 />} />
-            <Route path="/Artikel8" element={<Artikel8 />} />
-            <Route path="/Artikel9" element={<Artikel9 />} />
             <Route path="/Course1" element={<Course1 />} />
             <Route path="/ContentCourse" element={<ContentCourse />} />
             <Route path="/contentCourse1" element={<ContentCourse1 />} />
