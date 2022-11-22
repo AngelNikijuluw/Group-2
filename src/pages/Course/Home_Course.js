@@ -35,7 +35,7 @@ function HomeCourse() {
         title="Proteksi"
         id="bg-vertical-dropdown-1"
         >
-        <Dropdown.Item eventKey="1">Asuransi</Dropdown.Item>
+        <Dropdown.Item eventKey="1" href="/ProteksiAsuransi">Asuransi</Dropdown.Item>
         </DropdownButton>
 
         <DropdownButton
@@ -43,7 +43,7 @@ function HomeCourse() {
         title="Investasi"
         id="bg-vertical-dropdown-2"
         >
-        <Dropdown.Item eventKey="1">Saham</Dropdown.Item>
+        <Dropdown.Item eventKey="1" href="/InvestasiSaham">Saham</Dropdown.Item>
         <Dropdown.Item eventKey="2">Reksa Dana</Dropdown.Item>
         <Dropdown.Item eventKey="3">Obligasi</Dropdown.Item>
         <Dropdown.Item eventKey="4">Cryptocurrency</Dropdown.Item>

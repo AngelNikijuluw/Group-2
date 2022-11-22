@@ -40,6 +40,9 @@ import ContentCourse9 from "./pages/Course/ContentCourse9";
 import ContentCourse10 from "./pages/Course/ContentCourse10";
 import ContentCourse11 from "./pages/Course/ContentCourse11";
 import ContentCourse8 from "./pages/Course/ContentCourse8";
+import ProteksiAsuransi from "./pages/Course/filter_proteksi_asuransi";
+import InvestasiSaham from "./pages/Course/filterInvestasiSaham";
+
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -89,7 +92,8 @@ function App() {
             <Route path="/contentCourse9" element={<ContentCourse9 />} />
             <Route path="/contentCourse10" element={<ContentCourse10/>} />
             <Route path="/contentCourse11" element={<ContentCourse11 />} />
-
+            <Route path="/ProteksiAsuransi" element={<ProteksiAsuransi/>} />
+            <Route path="/InvestasiSaham" element={<InvestasiSaham/>} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           {/* <Footer /> */}
