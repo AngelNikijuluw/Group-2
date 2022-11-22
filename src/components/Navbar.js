@@ -56,9 +56,6 @@ function NavBar() {
             <NavDropdown title="Event">
               <NavDropdown.Item href="/HomeCourse">Course</NavDropdown.Item>
               <NavDropdown.Item href="/HomeArtikel">Artikel</NavDropdown.Item>
-              <NavDropdown.Item href="/RiwayatTransaksi">
-                RiwayatTransaksi
-              </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Item>
