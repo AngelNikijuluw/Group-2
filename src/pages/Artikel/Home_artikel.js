@@ -166,7 +166,7 @@ function HomeArtikel() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    <Card.Link href="#">Read More</Card.Link>
+                  <Card.Link href="/Artikel2">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -193,7 +193,7 @@ function HomeArtikel() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    <Card.Link href="#">Read More</Card.Link>
+                  <Card.Link href="/Artikel3">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -222,7 +222,7 @@ function HomeArtikel() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    <Card.Link href="#">Read More</Card.Link>
+                  <Card.Link href="/Artikel4">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -249,7 +249,7 @@ function HomeArtikel() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    <Card.Link href="#">Read More</Card.Link>
+                  <Card.Link href="/Artikel5">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -276,7 +276,7 @@ function HomeArtikel() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    <Card.Link href="#">Read More</Card.Link>
+                  <Card.Link href="/Artikel6">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -305,7 +305,7 @@ function HomeArtikel() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    <Card.Link href="#">Read More</Card.Link>
+                  <Card.Link href="/Artikel7">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -332,7 +332,7 @@ function HomeArtikel() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    <Card.Link href="#">Read More</Card.Link>
+                  <Card.Link href="/Artikel8">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -359,7 +359,7 @@ function HomeArtikel() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    <Card.Link href="#">Read More</Card.Link>
+                  <Card.Link href="/Artikel9">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>

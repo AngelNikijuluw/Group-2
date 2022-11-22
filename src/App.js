@@ -21,6 +21,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Artikel1 from "./pages/Artikel/Artikel1";
 import Course1 from "./pages/Course/Course1";
 import ContentCourse from "./pages/Course/Content_Course";
+import ContentCourse1 from "./pages/Course/ContentCourse1";
+import ContentCourse2 from "./pages/Course/ContentCourse2";
+import ContentCourse3 from "./pages/Course/ContentCourse3";
+import Artikel2 from "./pages/Artikel/Artikel2";
+import Artikel9 from "./pages/Artikel/Artikel9";
+import Artikel8 from "./pages/Artikel/Artikel8";
+import Artikel7 from "./pages/Artikel/Artikel7";
+import Artikel6 from "./pages/Artikel/Artikel6";
+import Artikel5 from "./pages/Artikel/Artikel5";
+import Artikel4 from "./pages/Artikel/Artikel4";
+import Artikel3 from "./pages/Artikel/Artikel3";
+import ContentCourse4 from "./pages/Course/ContentCourse4";
+import ContentCourse5 from "./pages/Course/ContentCourse5";
+import ContentCourse6 from "./pages/Course/ContentCourse6";
+import ContentCourse7 from "./pages/Course/ContentCourse7";
+import ContentCourse9 from "./pages/Course/ContentCourse9";
+import ContentCourse10 from "./pages/Course/ContentCourse10";
+import ContentCourse11 from "./pages/Course/ContentCourse11";
+import ContentCourse8 from "./pages/Course/ContentCourse8";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -49,8 +68,28 @@ function App() {
             <Route path="/SignUp" element={<SignUp />} />
             <Route path="/Profile" element={<Profile />} />
             <Route path="/Artikel1" element={<Artikel1 />} />
+            <Route path="/Artikel2" element={<Artikel2 />} />
+            <Route path="/Artikel3" element={<Artikel3 />} />
+            <Route path="/Artikel4" element={<Artikel4 />} />
+            <Route path="/Artikel5" element={<Artikel5 />} />
+            <Route path="/Artikel6" element={<Artikel6 />} />
+            <Route path="/Artikel7" element={<Artikel7 />} />
+            <Route path="/Artikel8" element={<Artikel8 />} />
+            <Route path="/Artikel9" element={<Artikel9 />} />
             <Route path="/Course1" element={<Course1 />} />
             <Route path="/ContentCourse" element={<ContentCourse />} />
+            <Route path="/contentCourse1" element={<ContentCourse1 />} />
+            <Route path="/contentCourse2" element={<ContentCourse2 />} />
+            <Route path="/contentCourse3" element={<ContentCourse3/>} />
+            <Route path="/contentCourse4" element={<ContentCourse4/>} />
+            <Route path="/contentCourse5" element={<ContentCourse5 />} />
+            <Route path="/contentCourse6" element={<ContentCourse6/>} />
+            <Route path="/contentCourse7" element={<ContentCourse7 />} />
+            <Route path="/contentCourse8" element={<ContentCourse8/>} />
+            <Route path="/contentCourse9" element={<ContentCourse9 />} />
+            <Route path="/contentCourse10" element={<ContentCourse10/>} />
+            <Route path="/contentCourse11" element={<ContentCourse11 />} />
+
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           {/* <Footer /> */}

@@ -73,7 +73,8 @@ function HomeCourse() {
             <Row style={{ color:"#ffff"}}>
             <img src={require('../../image/garis1.png')} />
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white",marginTop:"20px"}}>
-                <Card.Img variant="top" src={require('../../image/course1.png')} />
+                <Link to="/ContentCourse1">
+                <Card.Img variant="top" src={require('../../image/course1.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -88,7 +89,8 @@ function HomeCourse() {
             </Col>
             
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white",marginTop:"20px"}}>
-                <Card.Img variant="top" src={require('../../image/course1.png')} />
+                <Link to="/ContentCourse2">
+                <Card.Img variant="top" src={require('../../image/course1.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -103,7 +105,8 @@ function HomeCourse() {
             </Col>
 
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white",marginTop:"20px"}}>
-                <Card.Img variant="top" src={require('../../image/course1.png')} />
+                <Link to="/ContentCourse3">
+                <Card.Img variant="top" src={require('../../image/course1.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -121,7 +124,8 @@ function HomeCourse() {
 
             <Row style={{marginTop:"100px", color:"#ffff"}}>
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-                <Card.Img variant="top" src={require('../../image/course2.png')} />
+                <Link to="/ContentCourse4">
+                <Card.Img variant="top" src={require('../../image/course2.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -136,7 +140,8 @@ function HomeCourse() {
             </Col>
             
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-                <Card.Img variant="top" src={require('../../image/course2.png')} />
+                <Link to="/ContentCourse5">
+                <Card.Img variant="top" src={require('../../image/course2.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -151,7 +156,8 @@ function HomeCourse() {
             </Col>
 
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white",}}>
-                <Card.Img variant="top" src={require('../../image/course2.png')} />
+                <Link to="/ContentCourse6">
+                <Card.Img variant="top" src={require('../../image/course2.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -169,7 +175,8 @@ function HomeCourse() {
 
             <Row style={{marginTop:"100px", color:"#ffff"}}>
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-                <Card.Img variant="top" src={require('../../image/course3.png')} />
+                <Link to="/ContentCourse7">
+                <Card.Img variant="top" src={require('../../image/course3.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -184,7 +191,8 @@ function HomeCourse() {
             </Col>
             
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-                <Card.Img variant="top" src={require('../../image/course3.png')} />
+                <Link to="/ContentCourse8">
+                <Card.Img variant="top" src={require('../../image/course3.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -199,7 +207,8 @@ function HomeCourse() {
             </Col>
 
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-                <Card.Img variant="top" src={require('../../image/course3.png')} />
+                <Link to="/ContentCourse9">
+                <Card.Img variant="top" src={require('../../image/course3.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -234,7 +243,8 @@ function HomeCourse() {
             </Col>
             
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-                <Card.Img variant="top" src={require('../../image/course4.png')} />
+                <Link to="/ContentCourse10">
+                <Card.Img variant="top" src={require('../../image/course4.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
@@ -249,7 +259,8 @@ function HomeCourse() {
             </Col>
 
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
-                <Card.Img variant="top" src={require('../../image/course4.png')} />
+                <Link to="/ContentCourse11">
+                <Card.Img variant="top" src={require('../../image/course4.png')} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
