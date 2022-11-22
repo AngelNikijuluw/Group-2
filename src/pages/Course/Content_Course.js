@@ -66,7 +66,7 @@ function ContentCourse() {
         <h3 >Tentang Cours</h3>
         <p>
         Memulai bisnis menjadi impian banyak orang karena bisa mengatur sendiri model bisnis dan produk atau jasa yang ingin ditawarkan. Tapi, tidak semua orang paham bagaimana mengelola modal bisnis dengan modal minim.</p>
-        <p>Modul Strategi Bisnis Modal Kecil bersama Raymond Chin, Co-Founder Ternak Uang ini cocok untuk kamu yang mau belajar membangun bisnis dengan modal minim. Melalui modul ini, kamu akan mempelajari:</p>
+        <p>Melalui modul ini, kamu akan mempelajari:</p>
         <ol>
             <li>Cara riset produk bisnis modal kecil</li>
             <li>Cara memasarkan dan stok barang dengan modal kecil</li>

@@ -12,13 +12,12 @@ function ContentCourse6() {
             <Row>
               <Col md={7} className="home-header">
                 <h1 style={{ paddingBottom: 15 }} className="heading">
-                Strategi Bisnis
+                Mengenal Asuransi 
                   
                 </h1>
 
                 <h1 className="heading-name">
-                Modal 
-                  <strong className="main-name"> Kecil</strong>
+                untuk Pemula 
                 </h1>
 
                 <div style={{ padding: 20, textAlign: "left" }}>
@@ -43,7 +42,7 @@ function ContentCourse6() {
               </Col>
 
               <Col md={5} style={{ paddingBottom: 20, paddingLeft: 100 }}>
-                <img src={require('../../image/course4.png')} 
+                <img src={require('../../image/course2_3.jpg')} 
                   alt="home pic"
                   className="img-fluid"
                   style={{ maxHeight: "450px", zIndex:"1",position:"relative",filter:"contrast(50%)"}}
@@ -51,8 +50,8 @@ function ContentCourse6() {
                 />
                 <AiFillPlayCircle style={{height:"60px",width:"80px",zIndex:"2",position:"absolute",right:"250px",top:"250px"}}/>
                 <h3 style={{height:"100px",width:"250px",zIndex:"2",position:"absolute",right:"200px",top:"300px"}}>
-                <strong>Strategi Bisnis</strong>
-                <strong>Modal Kecil</strong>
+                <strong>Mengenal Asuransi</strong>
+                <strong>untuk Pemula</strong>
                 </h3>
               </Col>
               
@@ -65,13 +64,14 @@ function ContentCourse6() {
         <Card style={{backgroundColor:"transparent", color:"white",textAlign:"left",marginRight:"200px"}}>
         <h3 >Tentang Cours</h3>
         <p>
-        Memulai bisnis menjadi impian banyak orang karena bisa mengatur sendiri model bisnis dan produk atau jasa yang ingin ditawarkan. Tapi, tidak semua orang paham bagaimana mengelola modal bisnis dengan modal minim.</p>
-        <p>Modul Strategi Bisnis Modal Kecil bersama Raymond Chin, Co-Founder Ternak Uang ini cocok untuk kamu yang mau belajar membangun bisnis dengan modal minim. Melalui modul ini, kamu akan mempelajari:</p>
+        Instrumen proteksi lainnya yang penting selain dana darurat adalah asuransi. Sebelum berinvestasi, sebaiknya kamu menyiapkan asuransi sebagai langkah diversifikasi risiko dari hal-hal tidak terduga di masa yang akan datang.</p>
+        <p>Melalui modul ini, kamu akan mempelajari:</p>
         <ol>
-            <li>Cara riset produk bisnis modal kecil</li>
-            <li>Cara memasarkan dan stok barang dengan modal kecil</li>
+            <li> Istilah-istilah dalam asuransi</li>
+            <li>Ragam jenis asuransi</li>
+            <li>Cara memilih asuransi sesuai kebutuhan</li>
         </ol>
-        Setelah menyelesaikan modul ini, kamu bisa mengerti dan mampu memulai bisnis dengan modal kecil. Selamat belajar!</Card>
+        Setelah menyelesaikan modul ini, kamu dapat membedakan dan memilih asuransi yang cocok untuk kebutuhan kamu dan keluarga.</Card>
     </div>
     <div style={{color:"white"}}>
     Struktur Cours
@@ -80,7 +80,7 @@ function ContentCourse6() {
         <Form style={{float:"right", }}>
       <fieldset disabled>
         <Form.Group className="mb-3" >
-        <Card.Header>Strategi Bisnis Modal Kecil <AiOutlineCaretDown/></Card.Header>
+        <Card.Header>Mengenal Asuransi untuk Pemula <AiOutlineCaretDown/></Card.Header>
           <Form.Check 
             type="checkbox"
             id="disabledFieldsetCheck"

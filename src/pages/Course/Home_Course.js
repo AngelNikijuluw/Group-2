@@ -74,12 +74,12 @@ function HomeCourse() {
             <img src={require('../../image/garis1.png')} />
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white",marginTop:"20px"}}>
                 <Link to="/ContentCourse1">
-                <Card.Img variant="top" src={require('../../image/course1.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course1.png')} style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title style={{textAlign:"left"}}>Ubah inflasi menjadi Investasi....
+                <Card.Title style={{textAlign:"left"}}>Mengenal Tentang  Sektor Teknologi
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -90,12 +90,12 @@ function HomeCourse() {
             
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white",marginTop:"20px"}}>
                 <Link to="/ContentCourse2">
-                <Card.Img variant="top" src={require('../../image/course1.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course1_2.jpeg')} style={{height:"180px"}} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title style={{textAlign:"left"}}>Ubah inflasi menjadi Investasi....
+                <Card.Title style={{textAlign:"left"}}>Bagaimana saham untuk Pemula?
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -106,12 +106,12 @@ function HomeCourse() {
 
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white",marginTop:"20px"}}>
                 <Link to="/ContentCourse3">
-                <Card.Img variant="top" src={require('../../image/course1.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course1_3.jpeg')}  style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title style={{textAlign:"left"}}>Ubah inflasi menjadi Investasi....
+                <Card.Title style={{textAlign:"left"}}>Bagaimana Reksa Dana untuk Pemula
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -125,12 +125,12 @@ function HomeCourse() {
             <Row style={{marginTop:"100px", color:"#ffff"}}>
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
                 <Link to="/ContentCourse4">
-                <Card.Img variant="top" src={require('../../image/course2.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course2.png')} style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title>Asuransi itu proteksi bukan investasi....
+                <Card.Title>Laporan Keuangan untuk Pemula
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -141,12 +141,12 @@ function HomeCourse() {
             
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
                 <Link to="/ContentCourse5">
-                <Card.Img variant="top" src={require('../../image/course2.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course2_2.jpg')} style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title>Asuransi itu proteksi bukan investasi....
+                <Card.Title>Cara Bangun Bisnis untuk Pemula
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -157,12 +157,12 @@ function HomeCourse() {
 
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white",}}>
                 <Link to="/ContentCourse6">
-                <Card.Img variant="top" src={require('../../image/course2.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course2_3.jpg')} style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title>Asuransi itu proteksi bukan investasi....
+                <Card.Title>Mengenal Asuransi untuk Pemula
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -176,12 +176,12 @@ function HomeCourse() {
             <Row style={{marginTop:"100px", color:"#ffff"}}>
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
                 <Link to="/ContentCourse7">
-                <Card.Img variant="top" src={require('../../image/course3.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course3.png')} style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title>Memilih investasi di tengah fluktuasi...
+                <Card.Title>Perencanaan Keuangan Sesuai Kondisi
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -192,12 +192,12 @@ function HomeCourse() {
             
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
                 <Link to="/ContentCourse8">
-                <Card.Img variant="top" src={require('../../image/course3.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course3_2.jpg')} style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body >
-                <Card.Title>Memilih investasi di tengah fluktuasi...
+                <Card.Title>Mengenal Kewajiban Pajak Investor
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -208,12 +208,13 @@ function HomeCourse() {
 
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
                 <Link to="/ContentCourse9">
-                <Card.Img variant="top" src={require('../../image/course3.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course3_3.jpeg')} style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title>Memilih investasi di tengah fluktuasi...
+                <Card.Title>Mengenal tentang Konsep Keseimbangan
+
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -228,12 +229,12 @@ function HomeCourse() {
                 
                     <Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
                     <Link to="/ContentCourse">
-                <Card.Img variant="top" src={require('../../image/course4.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course4.png')} style={{height:"180px"}} /></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title>Strategi bisnis modal kecil....
+                <Card.Title>Bagaimana Strategi Bisnis Modal Kecil
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -244,12 +245,12 @@ function HomeCourse() {
             
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
                 <Link to="/ContentCourse10">
-                <Card.Img variant="top" src={require('../../image/course4.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course4_2.jpg')} style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body >
-                <Card.Title>Strategi bisnis modal kecil....
+                <Card.Title>Mengenal Tentang Konsep Ekonomi Dasar
             </Card.Title>
             </Card.Body>
             <Card.Body >
@@ -260,12 +261,12 @@ function HomeCourse() {
 
                 <Col sm><Card style={{ width: '18rem' ,backgroundColor:"#332F2F",boxShadow: "3px 2px 1px white"}}>
                 <Link to="/ContentCourse11">
-                <Card.Img variant="top" src={require('../../image/course4.png')} /></Link>
+                <Card.Img variant="top" src={require('../../image/course4_3.jpg')} style={{height:"180px"}}/></Link>
                 <Card.Text >
                 00:30:14 |<span style={{marginLeft:"10px"}}>4 chapters</span>
                 </Card.Text>
             <Card.Body>
-                <Card.Title>Strategi bisnis modal kecil....
+                <Card.Title>Mengenal Tentang sKonsep Pendapatan
             </Card.Title>
             </Card.Body>
             <Card.Body >
