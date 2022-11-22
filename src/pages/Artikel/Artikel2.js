@@ -18,14 +18,14 @@ function Artikel2() {
         <Container>
           <section style={{ color: "white", paddingTop: "100px" }}>
             <h3>
-              Hadapi Resesi 2023, Jangan Asal Memilih Instrument Investasi
+            Cara Mengatur Keuangan dengan Seimbang 
             </h3>
             <Card.Img
               variant="top"
-              src={require("../../image/kategori1.png")}
+              src={require("../../image/kategori1_artikel2.png")}
             />
             <Card.Text>
-              <span>10 november 2022</span>
+              <span>9 Septembber 2022</span>
               <span style={{ float: "right" }}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -87,98 +87,31 @@ function Artikel2() {
             <Card style={{ backgroundColor: "#262424" }}>
               <Card.Body>
                 <p style={{ textAlign: "left" }}>
-                  Resesi 2023, Benarkah Sangat Menyeramkan? Sejak beberapa bulan
-                  lalu, resesi 2023 jadi salah satu topik utama pembicaraan
-                  masyarakat dari segala lapisan. Hingga sukses menjadi momok
-                  yang menyeramkan. Mayoritas media memberitakan bahwa ini akan
-                  terjadi dalam waktu yang lama, dengan dampak berkali-kali
-                  lipat dari sebelumnya. Melansir laman cnbcindonesia.com,
-                  sebanyak 59 dari 83 ekonomi dari survei Reuters mengatakan hal
-                  serupa. Mereka memperkirakan The Fed akan menaikkan kembali
-                  suku bunga sebesar 75 basis poin di November. Kemudian satu
-                  bulan berselang, pada Desember, mereka kembali memperkirakan
-                  kalau The Fed akan menaikkan suku bunga sebesar 50 basis poin,
-                  menjadi 4,25-4,5%. Lalu di awal 2023, prediksinya The Fed akan
-                  menaikkan suku bunga kembali menjadi 4,5-4,75%. Sehingga, jika
-                  kondisinya nanti terjadi sesuai prediksi, maka suku bunga The
-                  Fed akan ada di level tertinggi sejak 2008. Tepatnya sebelum
-                  krisis finansial global terjadi. Ancaman Global Saat Resesi
-                  2023 Sementara itu, dalam kesempatan berbeda, Menteri Keuangan
-                  Republik Indonesia, Sri Mulyani, membeberkan tiga ancaman
-                  global yang harus kita waspadai saat resesi 2023 nanti, yaitu:
+                
                   <ol>
-                    <li>
-                      Pandemi Covid-19 yang sepenuhnya belum berakhir. Sri
-                      Mulyani mengatakan banyak negara yang masih terjerat
-                      penambahan kasus baru dan luka memar pasca pandemi.
+                    <li>Susun Anggaran Keuangan
+                      <p>Langkah pertama yang wajib dilakukan dalam mengatur keuangan adalah dengan menyusun sebuah anggaran keuangan terlebih dahulu. Berapapun penghasilan yang didapatkan, penting untuk selalu mengalokasikannya dengan tepat. Cara mengatur keuangan rumah tangga akan jauh lebih mudah, jika sejak awal sudah memiliki anggaran yang tepat.
+                      <p></p>Rencanakan apa saja pengeluaran yang dilakukan di dalam keuangan, sehingga semua kebutuhan bisa terpenuhi. Jangan lupa untuk membuat pos tabungan dan juga investasi, sebab keduanya juga menjadi komponen wajib di dalam anggaran keuangan. Aturlah semua pos pengeluaran dengan seimbang dan realistis, agar mudah untuk diterapkan secara nyata.</p>
                     </li>
                     <li>
-                      Perubahan iklim, yang sebenarnya bukan hanya terjadi di
-                      masa depan, tapi perlahan mulai kita rasakan sekarang.
+                    Prioritaskan Kebutuhan
+                    <p>Masih berkaitan dengan poin di atas, pastikan untuk selalu memprioritaskan kebutuhan, daripada berbagai keinginan. Penting untuk memahami perbedaan kebutuhan dan juga keinginan ini sejak awal, agar bisa lebih bijak dalam mengeluarkan uang. Cara mengatur keuangan pribadi maupun rumah tangga akan jauh lebih mudah, jika sejak awal telah memahami dengan baik apa saja yang benar-benar harus dipenuhi. Buatlah catatan belanja bulanan yang tepat dan patuhi dengan baik, agar pengeluaran bisa selalu terkontrol sepanjang waktu. </p>
                     </li>
                     <li>
-                      Perang Rusia – Ukrania, sekaligus tekanan geopolitik dari
-                      negara-negara yang menguasai ekonomi mayoritas dunia.
+                    Jangan Lupakan Tabungan 
+                    <p>Berapapun penghasilan bulanan yang didapatkan, pastikan untuk mengalokasikan sejumlah dana ke dalam pos tabungan. Idealnya, tabungkanlah 10-20% penghasilan ke dalam rekening khusus tabungan setiap bulannya. Hal ini akan membuat kondisi keuangan lebih sehat dan ada sejumlah dana yang bisa digunakan untuk berbagai kebutuhan di luar kebutuhan pokok bulanan. </p>
+                    </li>
+                    <li>Lakukan Investasi
+                      <p>Cara mengelola keuangan dengan tepat, akan memungkinkan segala sesuatunya berjalan lancar, termasuk investasi ini. Hasil investasi juga bisa membantu untuk mencapai berbagai tujuan keuangan menjadi lebih mudah. Jika dilakukan dengan konsisten, investasi bahkan bisa saja mendatangkan keuntungan yang sangat besar dalam keuangan. </p>
+                    </li>
+                    <li>Siapkan Dana Darurat 
+                    <p>Dana darurat adalah sejumlah dana yang bisa digunakan sewaktu-waktu, jika kondisi keuangan sedang darurat. Atau, untuk mengatasi berbagai kondisi darurat yang tidak bisa diatasi dengan menggunakan uang bulanan. Penuhi kebutuhan dana darurat ini dengan baik, alokasikanlah sejumlah dana dari penghasilan setiap bulannya. Idealnya, jumlah dana darurat minimal 6x pengeluaran bulanan untuk yang masih lajang, atau 12x pengeluaran bulanan bagi yang sudah memiliki tanggungan. Simpan dana darurat dalam rekening terpisah (khusus), agar tidak tercampur dengan dana lainnya atau bahkan terpakai. </p>
+                    </li>
+                    <li>Lakukan Evaluasi Keuangan Secara Berkala
+                      <p>Jika semua cara mengatur keuangan di atas sudah dijalankan di dalam keuangan, maka jangan lupakan yang satu ini. Lakukanlah evaluasi secara berkala di dalam keuangan, lihat bagian mana saja yang perlu diperbaiki. Hal ini akan memungkinkn cara mengelola keuangan terus menjadi lebih baik kedepannya. </p>
                     </li>
                   </ol>
-                  [Baca Juga: Daftar Negara yang Dibayangi Resesi 2023,
-                  Indonesia Termasuk?] Jangan Sembarang Taruh Uang di Instrumen
-                  Investasi Berdasarkan pemberitaan di atas, resesi 2023 memang
-                  terasa menyeramkan. Bahkan tidak menutup kemungkinan, akan
-                  membuat kita lebih terpuruk ketimbang 2020 silam akibat
-                  pandemi. Bagi investor ulung, mungkin inilah salah satu
-                  kesempatan untuk borong emiten-emiten terdiskon. Hanya saja
-                  karena termakan FOMO, tidak sedikit investor pemula yang latah
-                  membeli saham terdiskon tanpa mempertimbangkan faktor
-                  setelahnya. Selain itu, tak jarang kita juga mendengar para
-                  ahli dengan gencar merekomendasikan untuk membeli emas agar
-                  aset tetap aman. Alhasil banyak yang berbondong-bondong
-                  menaikkan persentase portofolio emas mereka. Padahal, tidak
-                  ada yang mutlak benar dari semua rekomendasi ini. Sebab
-                  hakikatnya, investasi bersifat personal. Contohnya, portofolio
-                  investasi A tidak mungkin sama dengan portofolio investasi B.
-                  Karena setiap orang punya rencana dan tujuan keuangan yang
-                  berbeda. Boleh jadi instrumen investasi X mungkin cocok untuk
-                  tujuan keuangan A yang sifatnya jangka pendek. Sementara
-                  instrumen investasi X belum tentu bisa membantu B mencapai
-                  tujuan keuangannya, yang sifatnya jangka panjang. Rekomendasi
-                  Instrumen Investasi Saat Resesi Meski demikian, tidaklah haram
-                  hukumnya jika kita melihat beberapa rekomendasi instrumen
-                  investasi dari ahli sebagai bahan pertimbangan dan referensi,
-                  bukan sebagai pilihan mutlak. Seperti Gembong S., CSA, CFP®,
-                  QWP®, AEPP, QFE yang juga merekomendasikan beberapa instrumen
-                  investasi sebagai ‘zona aman’:
-                  <ul>
-                    <li>
-                      Reksa dana pasar uang (100% penempatan di deposito dan
-                      obligasi jangka pendek);
-                    </li>
-                    <li>
-                      Reksa dana pendapatan tetap dengan dominan fokus pada
-                      obligasi swasta;
-                    </li>
-                    <li>
-                      Obligasi Negara Ritel dengan tenor yang pendek, seperti
-                      ORI22 yang memberikan return sebesar 5,95% per tahun;
-                    </li>
-                    <li>Deposito.</li>
-                  </ul>
-                  Untuk mengetahui informasi selengkapnya, kamu bisa membaca
-                  rekomendasi Gembong melalui artikel Finansialku satu ini
-                  Resesi 2023 Bakal Terjadi? Ini yang Harus Dilakukan! Investasi
-                  Saat Resesi, Apa Instrumen yang Cocok untuk Saya? Jika kita
-                  tidak bisa menelan mentah-mentah rekomendasi instrumen
-                  investasi dari ahli, bagaimana cara menentukan instrumen
-                  investasi yang cocok untuk kita? Sobat Finansialku tidak perlu
-                  pusing memikirkannya sendiri. Apalagi meluangkan waktu lebih
-                  banyak untuk menemukan cara menyelamatkan aset investasi dari
-                  ancaman resesi. Semua kegalauan dan kekhawatiran yang
-                  dirasakan, bisa kamu bagi kepada Perencana Keuangan
-                  Finansialku yang akan membantumu mengevaluasi semuanya secara
-                  menyeluruh. Mulai dari menentukan instrumen investasi dengan
-                  porsi diversifikasi yang sesuai. Hingga evaluasi portofolio
-                  secara rutin agar tujuan keuanganmu tercapai tepat waktu.
-                </p>
+                  </p>
               </Card.Body>
             </Card>
 

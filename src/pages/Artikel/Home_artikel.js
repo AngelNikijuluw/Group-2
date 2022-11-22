@@ -158,11 +158,10 @@ function HomeArtikel() {
                   />
                   <Card.Body>
                     <Card.Title>
-                      Cara Mudah Mengelola Keuangan Bagi Pemula
+                    Cara Mengatur Keuangan dengan Seimbang 
                     </Card.Title>
                     <Card.Text>
-                      Ada banyak cara mengelola keuangan, dari yang mudah hingga
-                      yang sulit. namun....
+                    Langkah pertama yang wajib dilakukan dalam mengatur keuangan adalah dengan menyusun sebuah anggaran keuangan .....
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
