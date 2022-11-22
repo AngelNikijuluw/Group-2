@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  CardGroup,
-  Button,
-  CardImg,
-} from "react-bootstrap";
+import { Container, Card, Button } from "react-bootstrap";
 import Layout from "../../components/Layout";
 
 function Profile() {
@@ -19,7 +11,7 @@ function Profile() {
             className="bg-dark text-light"
             style={{
               height: "700px",
-              width: "800px",
+              width: "700px",
               margin: "-115px",
               color: "#332F2F",
               marginTop: "100px",
@@ -37,13 +29,14 @@ function Profile() {
                 fontWeight: "",
               }}
             >
-              Hello, User!<p style={{ fontSize: "12px" }}>Lengkapi Profile</p>
+              Hello, Back to Bed!
+              <p style={{ fontSize: "14px" }}>Lengkapi Profile</p>
             </p>
             <hr style={{ marginTop: "-40px" }}></hr>
 
             <form
               class="needs-validation"
-              style={{ marginLeft: "100px", marginTop: "80px" }}
+              style={{ marginLeft: "150px", marginTop: "80px" }}
               novalidate
             >
               <div class="row">
@@ -58,7 +51,7 @@ function Profile() {
                       class="form-control"
                       id="validationCustom01"
                       placeholder="First name"
-                      value="Mark"
+                      value="Back to Bed"
                       required
                     ></input>
                     <div class="valid-feedback">Look</div>
@@ -75,7 +68,7 @@ function Profile() {
                       class="form-control"
                       id="validationCustom01"
                       placeholder="First name"
-                      value="Mark"
+                      value="B2B@gmail.com"
                       required
                     ></input>
                     <div class="valid-feedback">Look</div>
@@ -85,7 +78,7 @@ function Profile() {
             </form>
             <form
               class="needs-validation"
-              style={{ marginLeft: "100px" }}
+              style={{ marginLeft: "150px" }}
               novalidate
             >
               <div class="row">
@@ -100,7 +93,7 @@ function Profile() {
                       class="form-control"
                       id="validationCustom01"
                       placeholder="First name"
-                      value="Mark"
+                      value="+6281344256733"
                       required
                     ></input>
                     <div class="valid-feedback">Look</div>
@@ -117,7 +110,7 @@ function Profile() {
                       class="form-control"
                       id="validationCustom01"
                       placeholder="First name"
-                      value="Mark"
+                      value="08/11/2022"
                       required
                     ></input>
                     <div class="valid-feedback">Look</div>
@@ -128,7 +121,7 @@ function Profile() {
 
             <form
               class="needs-validation"
-              style={{ marginLeft: "100px" }}
+              style={{ marginLeft: "150px" }}
               novalidate
             >
               <div class="row">
@@ -139,7 +132,9 @@ function Profile() {
                   >
                     Gender
                     <select id="inputState" class="form-control">
-                      <option selected>Pilih</option>
+                      <option selected style={{ width: "200px" }}>
+                        Pilih{" "}
+                      </option>
                       <option>Laki-Laki</option>
                       <option>Perempuan</option>
                     </select>
@@ -157,7 +152,7 @@ function Profile() {
                       class="form-control"
                       id="validationCustom01"
                       placeholder="First name"
-                      value="Mark"
+                      value="Jakarta"
                       required
                     ></input>
                     <div class="valid-feedback">Look</div>
@@ -167,7 +162,7 @@ function Profile() {
             </form>
             <button
               style={{
-                marginLeft: "550px",
+                marginLeft: "450px",
                 marginTop: "100px",
                 backgroundColor: "blue",
               }}
@@ -206,7 +201,7 @@ function Profile() {
             <Card.Text>
               <p
                 style={{
-                  marginLeft: "145px",
+                  marginLeft: "95px",
                   marginTop: "-60px",
                   fontSize: "20px",
                 }}
@@ -220,7 +215,7 @@ function Profile() {
                 margin: "50px auto",
                 width: "70px",
                 height: "25px",
-                marginLeft: "260px",
+                marginLeft: "210px",
                 marginTop: "-180px",
                 fontSize: "10px",
               }}
@@ -233,22 +228,23 @@ function Profile() {
                 marginTop: "120px",
                 textAlign: "justify",
                 marginLeft: "80px",
+                fontWeight: "bold",
               }}
             >
               <ul>
-                <a>Profile</a>
+                <a href="/Profile">Profile</a>
               </ul>
 
               <ul>
-                <a>Membership</a>
+                <a href="/MemberShip">Membership</a>
               </ul>
 
               <ul>
-                <a>Riwayat Transaksi</a>
+                <a href="/RiwayatTransaksi">Riwayat Transaksi</a>
               </ul>
 
               <ul>
-                <a>Logout</a>
+                <a href=".">Logout</a>
               </ul>
             </div>
             <Card.Text></Card.Text>

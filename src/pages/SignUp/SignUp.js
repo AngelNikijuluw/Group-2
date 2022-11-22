@@ -7,12 +7,12 @@ export default function Signup() {
   return (
     <Container fluid className="home-signup" id="signup">
       <div
-        style={{ float: "left", marginTop: "200px", marginLeft: "400px" }}
+        style={{ float: "left", marginTop: "200px", marginLeft: "350px" }}
         className="img-login"
       >
         <img src={logo}></img>
       </div>
-      <div style={{ float: "left", marginTop: "300px", marginLeft: "-420px" }}>
+      <div style={{ float: "left", marginTop: "300px", marginLeft: "-550px" }}>
         <img src={gambar}></img>
       </div>
       <div class="login-form">

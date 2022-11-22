@@ -8,6 +8,9 @@ import Footer from "./components/Footer";
 import Profile from "./pages/Profile/Profile";
 import HomeArtikel from "./pages/Artikel/Home_artikel";
 import HomeCourse from "./pages/Course/Home_Course";
+import MemberShip from "./pages/Profile/MemberShip";
+import RiwayatTransaksi from "./pages/Profile/RiwayatTransaksi";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -20,6 +23,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Artikel1 from "./pages/Artikel/Artikel1";
 import Course1 from "./pages/Course/Course1";
+import ContentCourse from "./pages/Course/Content_Course";
 import ContentCourse from "./pages/Course/Content_Course";
 import ContentCourse1 from "./pages/Course/ContentCourse1";
 import ContentCourse2 from "./pages/Course/ContentCourse2";
@@ -42,7 +46,6 @@ import ContentCourse11 from "./pages/Course/ContentCourse11";
 import ContentCourse8 from "./pages/Course/ContentCourse8";
 import ProteksiAsuransi from "./pages/Course/filter_proteksi_asuransi";
 import InvestasiSaham from "./pages/Course/filterInvestasiSaham";
-
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -83,18 +86,20 @@ function App() {
             <Route path="/ContentCourse" element={<ContentCourse />} />
             <Route path="/contentCourse1" element={<ContentCourse1 />} />
             <Route path="/contentCourse2" element={<ContentCourse2 />} />
-            <Route path="/contentCourse3" element={<ContentCourse3/>} />
-            <Route path="/contentCourse4" element={<ContentCourse4/>} />
+            <Route path="/contentCourse3" element={<ContentCourse3 />} />
+            <Route path="/contentCourse4" element={<ContentCourse4 />} />
             <Route path="/contentCourse5" element={<ContentCourse5 />} />
-            <Route path="/contentCourse6" element={<ContentCourse6/>} />
+            <Route path="/contentCourse6" element={<ContentCourse6 />} />
             <Route path="/contentCourse7" element={<ContentCourse7 />} />
-            <Route path="/contentCourse8" element={<ContentCourse8/>} />
+            <Route path="/contentCourse8" element={<ContentCourse8 />} />
             <Route path="/contentCourse9" element={<ContentCourse9 />} />
-            <Route path="/contentCourse10" element={<ContentCourse10/>} />
+            <Route path="/contentCourse10" element={<ContentCourse10 />} />
             <Route path="/contentCourse11" element={<ContentCourse11 />} />
-            <Route path="/ProteksiAsuransi" element={<ProteksiAsuransi/>} />
-            <Route path="/InvestasiSaham" element={<InvestasiSaham/>} />
+            <Route path="/ProteksiAsuransi" element={<ProteksiAsuransi />} />
+            <Route path="/InvestasiSaham" element={<InvestasiSaham />} />
             <Route path="*" element={<Navigate to="/" />} />
+            <Route path="/MemberShip" element={<MemberShip />} />
+            <Route path="/RiwayatTransaksi" element={<RiwayatTransaksi />} />
           </Routes>
           {/* <Footer /> */}
         </div>

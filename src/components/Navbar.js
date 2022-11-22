@@ -44,7 +44,11 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to="home"
+                onClick={() => updateExpanded(false)}
+              >
                 Home
               </Nav.Link>
             </Nav.Item>
@@ -52,7 +56,9 @@ function NavBar() {
             <NavDropdown title="Event">
               <NavDropdown.Item href="/HomeCourse">Course</NavDropdown.Item>
               <NavDropdown.Item href="/HomeArtikel">Artikel</NavDropdown.Item>
-              <NavDropdown.Item href="/Profile">Profile</NavDropdown.Item>
+              <NavDropdown.Item href="/RiwayatTransaksi">
+                RiwayatTransaksi
+              </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Item>

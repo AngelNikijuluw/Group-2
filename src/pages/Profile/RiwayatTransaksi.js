@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Card, Button, Col } from "react-bootstrap";
 import Layout from "../../components/Layout";
-import icon from "../../Assets/icon.png";
 
-function MemberShip() {
+function RiwayatTransaksi() {
   return (
     <Layout title="Tanam Uang | Home" showFooter showNavbar>
       <Container fluid className="home-about-section" id="about">
@@ -31,7 +30,7 @@ function MemberShip() {
                 fontWeight: "bold",
               }}
             >
-              MemberShip<br></br>
+              RIWAYAT TRANSAKSI<br></br>
               <p
                 href="."
                 style={{
@@ -40,7 +39,7 @@ function MemberShip() {
                   fontWeight: "normal",
                 }}
               >
-                Belum jadi member?<a href=".">Yuk, Beli Membership Sekarang</a>
+                Cek semua transaksi pembelian di Ternak Uang
               </p>
             </p>
             <hr style={{ marginTop: "-40px" }}></hr>
@@ -48,18 +47,13 @@ function MemberShip() {
             <section
               style={{
                 float: "center",
-                marginTop: "50px",
-                marginRight: "200px",
+                marginTop: "150px",
+                marginRight: "10px",
               }}
             >
               <p style={{ textTransform: "uppercase", fontSize: "20px" }}>
-                <a>
-                  <img
-                    style={{ width: "64px", padding: "2px" }}
-                    src={icon}
-                  ></img>
-                </a>
-                700+ Video Modul Pembelajaran
+                <a></a>
+                Tidak Ada Riwayat Transaksi
               </p>
             </section>
           </Card>
@@ -144,4 +138,4 @@ function MemberShip() {
     </Layout>
   );
 }
-export default MemberShip;
+export default RiwayatTransaksi;

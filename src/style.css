@@ -477,8 +477,8 @@ button:focus {
   display: none !important;
 }
 .card {
-  display: none inline-flex;
-  
+
+
 }
 .card-group {
   width: 85%;
@@ -707,9 +707,9 @@ button{
 
 .login-form {
   background: #fff;
-  width: 500px;
+  width: 25em;
   margin: 205px auto;
-  margin-right: 350px;
+  margin-right: 100px;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -774,8 +774,8 @@ button{
   -webkit-box-direction: normal;
           flex-direction: row;
 }
-.login-form .action button {
-  width: 30%;
+.login-form .action a {
+  width: 80px;
   border: none;
   padding: 12px;
   margin-left: 170px;
@@ -789,6 +789,7 @@ button{
   outline: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
+  font-weight: bold;
 }
 .login-form .action button:hover {
   background: #d8d8d8;
@@ -831,8 +832,25 @@ font-weight: bold;
 }
 
 .menu-hover ul:hover{
-  background: wheat;
+  background: whitesmoke;
+  color: #000;
+  
 }
+.menu-hover ul a {
+  text-decoration: none;
+  color: white;
+}
+.menu-hover ul a:hover {
+  color: black;
+  
+}
+
+@media screen and (max-width: 992px) {
+  .login-form {
+    width: 100%;
+  }
+}
+
 
 
 

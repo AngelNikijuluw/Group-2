@@ -8,17 +8,24 @@ export default function Login() {
   return (
     <Container fluid className="home-login" id="Login">
       <div
-        style={{ float: "left", marginTop: "200px", marginLeft: "400px" }}
+        style={{ float: "left", marginTop: "200px", marginLeft: "350px" }}
         className="img-login"
       >
         <img src={logo}></img>
       </div>
-      <div style={{ float: "left", marginTop: "300px", marginLeft: "-420px" }}>
+      <div
+        style={{
+          float: "left",
+          marginTop: "300px",
+          marginLeft: "-550px",
+        }}
+      >
         <img src={gambar}></img>
       </div>
+
       <div class="login-form">
         <form>
-          <h1>Login</h1>
+          <h1>Sign In</h1>
           <div class="content">
             <div class="input-field">
               <input
@@ -41,12 +48,14 @@ export default function Login() {
             </a>
           </div>
           <div class="action">
-            <button>Sign in</button>
+            <a href="/Profile" class="btn btn-secondary">
+              Sign In
+            </a>
           </div>
           <div class="google">
             <button>
               <a>
-                <AiFillGoogleCircle />
+                <AiFillGoogleCircle size={25} />
               </a>
               Log in with Google
             </button>
