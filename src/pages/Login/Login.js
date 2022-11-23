@@ -19,7 +19,7 @@ export default function Login() {
           style={{
             float: "left",
             marginTop: "300px",
-            marginLeft: "-550px",
+            marginLeft: "-450px",
           }}
         >
           <img src={gambar} alt="img"></img>

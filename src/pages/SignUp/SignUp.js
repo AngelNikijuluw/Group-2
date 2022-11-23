@@ -16,7 +16,7 @@ export default function Signup() {
           <img src={logo} alt="img"></img>
         </div>
         <div
-          style={{ float: "left", marginTop: "300px", marginLeft: "-550px" }}
+          style={{ float: "left", marginTop: "300px", marginLeft: "-450px" }}
         >
           <img src={gambar} alt="img"></img>
         </div>
