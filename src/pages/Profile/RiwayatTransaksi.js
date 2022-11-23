@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 
 function RiwayatTransaksi() {
   return (
-    <Layout title="Tanam Uang | Home" showFooter showNavbar>
+    <Layout title="Tanam Uang | Riwayat Transaksi" showFooter showNavbar>
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Card
@@ -42,7 +42,7 @@ function RiwayatTransaksi() {
                 Cek semua transaksi pembelian di Ternak Uang
               </p>
             </p>
-            <hr style={{ marginTop: "-40px" }}></hr>
+            <hr style={{ marginTop: "-40px", color: "#7282D9" }}></hr>
 
             <section
               style={{
@@ -90,10 +90,10 @@ function RiwayatTransaksi() {
                   fontSize: "20px",
                 }}
               >
-                Back to bed
+                Back to Bed
               </p>
             </Card.Text>
-            <hr></hr>
+            <hr style={{ color: "#7282D9" }}></hr>
             <Button
               style={{
                 margin: "50px auto",

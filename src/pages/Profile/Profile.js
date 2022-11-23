@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 
 function Profile() {
   return (
-    <Layout title="Tanam Uang | Home" showFooter showNavbar>
+    <Layout title="Tanam Uang | Profile" showFooter showNavbar>
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Card
@@ -26,13 +26,13 @@ function Profile() {
                 marginLeft: "20px",
                 padding: "50px",
                 fontSize: "30px",
-                fontWeight: "",
               }}
             >
-              Hello, Back to Bed!
+              <span style={{ color: "#7282D9", fontSize: "30px" }}>Hallo,</span>{" "}
+              <span> Back to Bed!</span>
               <p style={{ fontSize: "14px" }}>Lengkapi Profile</p>
             </p>
-            <hr style={{ marginTop: "-40px" }}></hr>
+            <hr style={{ marginTop: "-40px", color: "#7282D9" }}></hr>
 
             <form
               class="needs-validation"
@@ -164,7 +164,7 @@ function Profile() {
               style={{
                 marginLeft: "450px",
                 marginTop: "100px",
-                backgroundColor: "blue",
+                backgroundColor: "#434C77",
               }}
             >
               Save
@@ -206,10 +206,10 @@ function Profile() {
                   fontSize: "20px",
                 }}
               >
-                Back to bed
+                Back to Bed
               </p>
             </Card.Text>
-            <hr></hr>
+            <hr style={{ color: "#7282D9" }}></hr>
             <Button
               style={{
                 margin: "50px auto",

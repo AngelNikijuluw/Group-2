@@ -20,19 +20,19 @@ function Footer() {
           <div>
             <ul>
               <a>
-                <AiTwotoneEnvironment />
+                <AiTwotoneEnvironment size={20} />
               </a>
               SOHO CAPITAL podomoro city
             </ul>
             <ul>
               <a>
-                <AiOutlineWhatsApp />
+                <AiOutlineWhatsApp size={20} />
               </a>
               +6281456778920
             </ul>
             <ul>
               <a>
-                <AiFillMail />
+                <AiFillMail size={20} />
               </a>
               cs@tanamuang.id
             </ul>
@@ -101,7 +101,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiOutlineFacebook />
+                <AiOutlineFacebook size={30} />
               </a>
             </li>
             <li className="social-icons">
@@ -111,7 +111,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <AiFillInstagram size={30} />
               </a>
             </li>
             <li className="social-icons">
@@ -121,7 +121,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <AiOutlineTwitter size={30} />
               </a>
             </li>
             <li className="social-icons">
@@ -131,7 +131,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiOutlineYoutube />
+                <AiOutlineYoutube size={30} />
               </a>
             </li>
             <h3

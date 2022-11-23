@@ -5,7 +5,7 @@ import icon from "../../Assets/icon.png";
 
 function MemberShip() {
   return (
-    <Layout title="Tanam Uang | Home" showFooter showNavbar>
+    <Layout title="Tanam Uang | MemberShip" showFooter showNavbar>
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Card
@@ -37,13 +37,12 @@ function MemberShip() {
                 style={{
                   fontSize: "14px",
                   textDecoration: "none",
-                  fontWeight: "normal",
                 }}
               >
                 Belum jadi member?<a href=".">Yuk, Beli Membership Sekarang</a>
               </p>
             </p>
-            <hr style={{ marginTop: "-40px" }}></hr>
+            <hr style={{ marginTop: "-40px", color: "#7282D9" }}></hr>
 
             <section
               style={{
@@ -96,10 +95,10 @@ function MemberShip() {
                   fontSize: "20px",
                 }}
               >
-                Back to bed
+                Back to Bed
               </p>
             </Card.Text>
-            <hr></hr>
+            <hr style={{ color: "#7282D9" }}></hr>
             <Button
               style={{
                 margin: "50px auto",

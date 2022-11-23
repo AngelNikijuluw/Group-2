@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 function HomeArtikel() {
   return (
-    <Layout title="Tanam Uang | Home" showFooter showNavbar>
+    <Layout title="Tanam Uang | Artikel" showFooter showNavbar>
       <Container fluid className="home-about-section" id="about">
         <Container>
           <section>
@@ -126,8 +126,8 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_artikel1.png")}style=
-                    {{height:"180px"}}
+                    src={require("../../image/kategori1_artikel1.png")}
+                    style={{ height: "180px" }}
                   />
                   <Card.Body>
                     <Card.Title>
@@ -155,19 +155,21 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_2.png")} style=
-                    {{height:"180px"}}
+                    src={require("../../image/kategori1_2.png")}
+                    style={{ height: "180px" }}
                   />
                   <Card.Body>
                     <Card.Title>
-                    Cara Mengatur Keuangan dengan Seimbang 
+                      Cara Mengatur Keuangan dengan Seimbang
                     </Card.Title>
                     <Card.Text>
-                    Langkah pertama yang wajib dilakukan dalam mengatur keuangan adalah dengan menyusun sebuah anggaran keuangan .....
+                      Langkah pertama yang wajib dilakukan dalam mengatur
+                      keuangan adalah dengan menyusun sebuah anggaran keuangan
+                      .....
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                  <Card.Link href="/Artikel2">Read More</Card.Link>
+                    <Card.Link href="/Artikel2">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -182,19 +184,21 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_3.png")}style=
-                    {{height:"180px"}}
+                    src={require("../../image/kategori1_3.png")}
+                    style={{ height: "180px" }}
                   />
                   <Card.Body>
                     <Card.Title>
-                    Mengelola Keuangan  Bijak  bagi Mahasiswa
+                      Mengelola Keuangan Bijak bagi Mahasiswa
                     </Card.Title>
                     <Card.Text>
-                    Tentu saja hal yang pertama kali kita lakukan untuk mengelola keuangan adalah dengan menyusun skala prioritas. Kita harus..
+                      Tentu saja hal yang pertama kali kita lakukan untuk
+                      mengelola keuangan adalah dengan menyusun skala prioritas.
+                      Kita harus..
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                  <Card.Link href="/Artikel3">Read More</Card.Link>
+                    <Card.Link href="/Artikel3">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -211,19 +215,20 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_4.jpg")}style=
-                    {{height:"180px"}}
+                    src={require("../../image/kategori1_4.jpg")}
+                    style={{ height: "180px" }}
                   />
                   <Card.Body>
                     <Card.Title>
-                    Perencanaan Keuangan: Manfaat untuk Pribadi
+                      Perencanaan Keuangan: Manfaat untuk Pribadi
                     </Card.Title>
                     <Card.Text>
-                    Dalam melakukan apapun, menyusun rencana akan membuat hal yang ingin dikerjakan menjadi lebih....
+                      Dalam melakukan apapun, menyusun rencana akan membuat hal
+                      yang ingin dikerjakan menjadi lebih....
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                  <Card.Link href="/Artikel4">Read More</Card.Link>
+                    <Card.Link href="/Artikel4">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -238,19 +243,20 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_5.jpg")}style=
-                    {{height:"180px"}}
+                    src={require("../../image/kategori1_5.jpg")}
+                    style={{ height: "180px" }}
                   />
                   <Card.Body>
                     <Card.Title>
-                    Perencanaan Keuangan Yang Baik Diperlukan
+                      Perencanaan Keuangan Yang Baik Diperlukan
                     </Card.Title>
                     <Card.Text>
-                    Apa yang paling penting direncanakan dalam merencanakan keuangan? Secara garis besar....
+                      Apa yang paling penting direncanakan dalam merencanakan
+                      keuangan? Secara garis besar....
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                  <Card.Link href="/Artikel5">Read More</Card.Link>
+                    <Card.Link href="/Artikel5">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
@@ -265,25 +271,24 @@ function HomeArtikel() {
                 >
                   <Card.Img
                     variant="top"
-                    src={require("../../image/kategori1_6.jpeg")}style=
-                    {{height:"180px"}}
+                    src={require("../../image/kategori1_6.jpeg")}
+                    style={{ height: "180px" }}
                   />
                   <Card.Body>
                     <Card.Title>
-                    Pentingnya Perencanaan Keuangan dalam Keluarga
+                      Pentingnya Perencanaan Keuangan dalam Keluarga
                     </Card.Title>
                     <Card.Text>
-                    Salah satu poin krusial dalam perencanaan keuangan adalah menentukan pos pengeluaran. Di titik ....
+                      Salah satu poin krusial dalam perencanaan keuangan adalah
+                      menentukan pos pengeluaran. Di titik ....
                     </Card.Text>
                   </Card.Body>
                   <Card.Body>
-                  <Card.Link href="/Artikel6">Read More</Card.Link>
+                    <Card.Link href="/Artikel6">Read More</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
             </Row>
-
-            
           </section>
           <section style={{ marginTop: "100px" }}>
             <p>

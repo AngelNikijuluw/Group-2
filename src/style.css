@@ -282,10 +282,16 @@ button:focus {
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+
+}
+.heading-website {
+  font-size: 1.8em !important;
+  padding-left: 45px !important;
 }
 
 .main-name {
   color: #cd5ff8;
+  
 }
 
 .Typewriter__wrapper {
@@ -775,13 +781,13 @@ button{
           flex-direction: row;
 }
 .login-form .action a {
-  width: 80px;
+  width: 100px;
   border: none;
   padding: 12px;
   margin-left: 170px;
   font-family: 'Rubik', sans-serif;
   cursor: pointer;
-  background: blueviolet;
+  background: #434C77;
   color: white;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 0;
@@ -850,7 +856,6 @@ font-weight: bold;
     width: 100%;
   }
 }
-
 
 
 
