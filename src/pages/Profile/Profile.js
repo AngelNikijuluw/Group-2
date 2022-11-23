@@ -40,7 +40,7 @@ function Profile() {
               novalidate
             >
               <div class="row">
-                <div class="col-md-4 mb-3">
+                <div style={{ marginRight: "50px" }} class="col-md-4 mb-3">
                   <label
                     style={{ textAlign: "justify" }}
                     for="validationCustom01"
@@ -50,7 +50,6 @@ function Profile() {
                       type="text"
                       class="form-control"
                       id="validationCustom01"
-                      placeholder="First name"
                       value="Back to Bed"
                       required
                     ></input>
@@ -66,8 +65,6 @@ function Profile() {
                     <input
                       type="text"
                       class="form-control"
-                      id="validationCustom01"
-                      placeholder="First name"
                       value="B2B@gmail.com"
                       required
                     ></input>
@@ -82,7 +79,7 @@ function Profile() {
               novalidate
             >
               <div class="row">
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3" style={{ marginRight: "50px" }}>
                   <label
                     style={{ textAlign: "justify" }}
                     for="validationCustom01"
@@ -92,7 +89,6 @@ function Profile() {
                       type="text"
                       class="form-control"
                       id="validationCustom01"
-                      placeholder="First name"
                       value="+6281344256733"
                       required
                     ></input>
@@ -109,7 +105,6 @@ function Profile() {
                       type="text"
                       class="form-control"
                       id="validationCustom01"
-                      placeholder="First name"
                       value="08/11/2022"
                       required
                     ></input>
@@ -125,19 +120,19 @@ function Profile() {
               novalidate
             >
               <div class="row">
-                <div class="form-group col-md-4">
+                <div class="col-md-4 mb-3" style={{ marginRight: "50px" }}>
                   <label
                     style={{ textAlign: "justify" }}
                     for="validationCustom01"
                   >
                     Gender
-                    <select id="inputState" class="form-control">
-                      <option selected style={{ width: "200px" }}>
-                        Pilih{" "}
-                      </option>
-                      <option>Laki-Laki</option>
-                      <option>Perempuan</option>
-                    </select>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationCustom01"
+                      value="Laki-Laki"
+                      required
+                    ></input>
                     <div class="valid-feedback">Look</div>
                   </label>
                 </div>
@@ -151,7 +146,6 @@ function Profile() {
                       type="text"
                       class="form-control"
                       id="validationCustom01"
-                      placeholder="First name"
                       value="Jakarta"
                       required
                     ></input>
@@ -170,7 +164,7 @@ function Profile() {
               Save
             </button>
             <span style={{ marginLeft: "-400px" }}>
-              Change Password? <a href=".">Click Here</a>
+              Ubah Pasword? <a href=".">Klik Disini</a>
             </span>
           </Card>
           <Card

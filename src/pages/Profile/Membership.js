@@ -51,6 +51,10 @@ function MemberShip() {
                 marginRight: "200px",
               }}
             >
+              <p style={{ fontSize: "18px" }}>
+                <a href="/"></a>
+                Dengan jadi member kamu bisa mendapatkan akses ke
+              </p>
               <p style={{ textTransform: "uppercase", fontSize: "20px" }}>
                 <a href="/">
                   <img

@@ -27,28 +27,39 @@ export default function Login() {
 
         <div class="login-form">
           <form>
-            <h1>Sign In</h1>
+            <h1>Login</h1>
             <div class="content">
-              <div class="input-field">
-                <input
-                  type="email"
-                  placeholder="Email"
-                  autocomplete="nope"
-                  required
-                ></input>
+              <div class="col-md-4 mb-3">
+                <label
+                  style={{ textAlign: "justify" }}
+                  for="validationCustom01"
+                >
+                  Email
+                  <input
+                    type="text"
+                    class="form"
+                    id="validationCustom01"
+                    required
+                  ></input>
+                  <div class="valid-feedback">Look</div>
+                </label>
               </div>
-              <div class="input-field">
-                <input
-                  type="password"
-                  placeholder="Password"
-                  autocomplete="new-password"
-                  required
-                ></input>
+              <div class="col-md-4 mb-3">
+                <label style={{ textAlign: "left" }} for="validationCustom01">
+                  Password
+                  <input
+                    type="password"
+                    class="form"
+                    id="validationCustom01"
+                    required
+                  ></input>
+                  <div class="valid-feedback">Look</div>
+                </label>
               </div>
             </div>
             <div class="action">
               <a href="/Profile" class="btn btn-secondary">
-                Sign In
+                Login
               </a>
             </div>
             <div class="google">
@@ -56,12 +67,12 @@ export default function Login() {
                 <a href="/">
                   <AiFillGoogleCircle size={25} />
                 </a>
-                Sign In with Google
+                Login dengan Google
               </button>
             </div>
             <div>
               <p>
-                Don’t have an account yet? <a href="/SignUp">Sign up</a>.
+                Belum Memiliki Akun? <a href="/SignUp">Registrasi</a>.
               </p>
             </div>
           </form>

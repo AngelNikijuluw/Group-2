@@ -22,36 +22,54 @@ export default function Signup() {
         </div>
         <div class="login-form">
           <form>
-            <h1>Sign Up</h1>
+            <h1>Registrasi</h1>
             <div class="content">
-              <div class="input-field">
-                <input
-                  type="nama"
-                  placeholder="Nama"
-                  autocomplete="nope"
-                  required
-                ></input>
+              <div class="col-md-4 mb-3">
+                <label
+                  style={{ textAlign: "justify" }}
+                  for="validationCustom01"
+                >
+                  Nama
+                  <input
+                    type="text"
+                    class="form"
+                    id="validationCustom01"
+                    required
+                  ></input>
+                  <div class="valid-feedback">Look</div>
+                </label>
               </div>
-              <div class="input-field">
-                <input
-                  type="email"
-                  placeholder="Email"
-                  autocomplete="nope"
-                  required
-                ></input>
+              <div class="col-md-4 mb-3">
+                <label
+                  style={{ textAlign: "justify" }}
+                  for="validationCustom01"
+                >
+                  Email
+                  <input
+                    type="text"
+                    class="form"
+                    id="validationCustom01"
+                    required
+                  ></input>
+                  <div class="valid-feedback">Look</div>
+                </label>
               </div>
-              <div class="input-field">
-                <input
-                  type="password"
-                  placeholder="Password"
-                  autocomplete="new-password"
-                  required
-                ></input>
+              <div class="col-md-4 mb-3">
+                <label style={{ textAlign: "left" }} for="validationCustom01">
+                  Password
+                  <input
+                    type="password"
+                    class="form"
+                    id="validationCustom01"
+                    required
+                  ></input>
+                  <div class="valid-feedback">Look</div>
+                </label>
               </div>
             </div>
             <div class="action">
               <a href="/Login" class="btn btn-secondary">
-                Sign Up
+                Registrasi
               </a>
             </div>
             <div class="google">
@@ -59,7 +77,7 @@ export default function Signup() {
                 <a href="/">
                   <AiFillGoogleCircle size={25} />
                 </a>
-                Sign Up With Google
+                Daftar dengan Google
               </button>
             </div>
           </form>
