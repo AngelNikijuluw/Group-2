@@ -7,7 +7,7 @@ import Layout from "../../components/Layout";
 
 export default function Signup() {
   return (
-    <Layout title="Tanam Uang | Sign Up" showFooter showNavbar>
+    <Layout title="Tanam Uang | Sign Up">
       <Container fluid className="home-signup" id="signup">
         <div
           style={{ float: "left", marginTop: "200px", marginLeft: "350px" }}

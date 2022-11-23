@@ -7,7 +7,7 @@ import Layout from "../../components/Layout";
 
 export default function Login() {
   return (
-    <Layout title="Tanam Uang | Login" showFooter showNavbar>
+    <Layout title="Tanam Uang | Login">
       <Container fluid className="home-login" id="Login">
         <div
           style={{ float: "left", marginTop: "200px", marginLeft: "350px" }}
