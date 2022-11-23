@@ -5,12 +5,10 @@ import {
   Row,
   Col,
   Card,
-  CardGroup,
   Button,
   Form,
   InputGroup,
 } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 function HomeArtikel() {
   return (

@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "./pages/Pre";
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
-import Footer from "./components/Footer";
 import Profile from "./pages/Profile/Profile";
 import HomeArtikel from "./pages/Artikel/Home_artikel";
 import HomeCourse from "./pages/Course/Home_Course";

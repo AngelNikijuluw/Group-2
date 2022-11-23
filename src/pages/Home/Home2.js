@@ -612,6 +612,7 @@ function Home2() {
                   invest. thank you team Plant money{" "}
                   <img
                     src={require("../../image/iconbintang.png")}
+                    alt="img"
                     style={{
                       width: "150px",
                       position: "absolute",

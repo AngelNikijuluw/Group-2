@@ -13,7 +13,7 @@ export default function Login() {
           style={{ float: "left", marginTop: "200px", marginLeft: "350px" }}
           className="img-login"
         >
-          <img src={logo}></img>
+          <img src={logo} alt="img"></img>
         </div>
         <div
           style={{
@@ -22,7 +22,7 @@ export default function Login() {
             marginLeft: "-550px",
           }}
         >
-          <img src={gambar}></img>
+          <img src={gambar} alt="img"></img>
         </div>
 
         <div class="login-form">
@@ -53,7 +53,7 @@ export default function Login() {
             </div>
             <div class="google">
               <button>
-                <a>
+                <a href="/">
                   <AiFillGoogleCircle size={25} />
                 </a>
                 Sign In with Google

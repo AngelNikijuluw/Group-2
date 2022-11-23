@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, Button, Col } from "react-bootstrap";
+import { Container, Card, Button } from "react-bootstrap";
 import Layout from "../../components/Layout";
 
 function RiwayatTransaksi() {
@@ -52,7 +52,6 @@ function RiwayatTransaksi() {
               }}
             >
               <p style={{ textTransform: "uppercase", fontSize: "20px" }}>
-                <a></a>
                 Tidak Ada Riwayat Transaksi
               </p>
             </section>

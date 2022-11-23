@@ -16,22 +16,22 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <img src={logo}></img>
+          <img src={logo} alt="img"></img>
           <div>
             <ul>
-              <a>
+              <a href="/">
                 <AiTwotoneEnvironment size={20} />
               </a>
               SOHO CAPITAL podomoro city
             </ul>
             <ul>
-              <a>
+              <a href="/">
                 <AiOutlineWhatsApp size={20} />
               </a>
               +6281456778920
             </ul>
             <ul>
-              <a>
+              <a href="/">
                 <AiFillMail size={20} />
               </a>
               cs@tanamuang.id

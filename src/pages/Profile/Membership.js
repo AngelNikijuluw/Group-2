@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, Button, Col } from "react-bootstrap";
+import { Container, Card, Button } from "react-bootstrap";
 import Layout from "../../components/Layout";
 import icon from "../../Assets/icon.png";
 
@@ -52,8 +52,9 @@ function MemberShip() {
               }}
             >
               <p style={{ textTransform: "uppercase", fontSize: "20px" }}>
-                <a>
+                <a href="/">
                   <img
+                    alt="img"
                     style={{ width: "64px", padding: "2px" }}
                     src={icon}
                   ></img>

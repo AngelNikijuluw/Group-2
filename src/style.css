@@ -447,6 +447,22 @@ button:focus {
   margin-bottom: 0.5em !important;
   padding: 0 !important;
 }
+.footer-copywright ul a{
+  color: white;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-copywright ul {
+  color: white;
+  text-decoration:none;
+  opacity:0.8;
+}
+.footer-body h3 {
+  padding-top: 20px;
+font-weight: bold;
+  color: white;
+}
 
 .blockquote-footer {
   color: #a588c0 !important;
@@ -482,10 +498,7 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
-.card {
 
-
-}
 .card-group {
   width: 85%;
   justify-items: center;
@@ -521,106 +534,6 @@ h3{
   background: #000;
   background-color: #0c0513;
 }
-
-{/* css price start */}
-
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
-
-body{
-  background-color: rgb(237, 237, 237);
-}
-
-#pricing{
-  width: 989px;
-  margin: 100px auto;
-  font-family: 'Open Sans', Helvetica;
-}
-
-.price_card{
-  width: 300px;
-  background: rgb(255, 255, 255);
-  display: inline-table;
-  top: 0;
-}
-.price_card:not(:last-child){
-  margin-right: 40px;
-}
-.header{
-  color: rgb(255, 255, 255);
-}
-.alpha .header{
-  background: rgb(245, 166, 35);
-}
-.bravo .header{
-  background: rgb(246, 77, 77);
-}
-.charlie .header{
-  background: rgb(48, 219, 181);
-}
-.price{
-  width: 100%;
-  font-size: 60px;
-  font-weight: 300;
-  display: block;
-  text-align: center;
-  padding: 30px 0 10px;
-}
-.name{
-  width: 100%;
-  font-size: 15px;
-  font-weight: 700;
-  display: block;
-  text-align: center;
-  padding: 0 0 30px;
-}
-.features{
-  list-style: none;
-  text-align: center;
-  color: rgb(138, 138, 138);
-  margin: 0;
-  padding: 0;
-}
-.features li{
-  margin: 0 35px;
-  padding: 20px 15px;
-  width: 200px;
-}
-.features li:not(:last-child){
-  border: 1px solid rgb(242, 242, 242);
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-}
-button{
-  color: rgb(255, 255, 255);
-  border: 0;
-  border-radius: 5px;
-  height: 40px;
-  width: 200px;
-  display: block;
-  font-weight: 700;
-  font-size: 15px;
-  text-transform: uppercase;
-  margin: 20px auto 35px;
-}
-.alpha button{
-  background: rgb(245, 166, 35);
-}
-.bravo button{
-  background: rgb(246, 77, 77);
-}
-.charlie button{
-  background: rgb(48, 219, 181);
-}
-.tip{
-  font-family: 'Indie Flower';
-  position: absolute;
-  color: rgb(117, 117, 117);
-  margin: 10px 5px;
-}
-
-{/* css price end */}
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
@@ -700,7 +613,9 @@ button{
   
 }
 
-{/* Login */}
+/* --------- */
+/*  Login form */
+/* --------- */
 
 * {
   margin: 0;
@@ -709,6 +624,18 @@ button{
   -webkit-font-smoothing: antialiased;
 }
 
+button{
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 20px auto 35px;
+}
 
 
 .login-form {
@@ -818,24 +745,10 @@ margin-bottom: 20px;
 background-color: #000;
 }
 
-{/* end login */}
+/* --------- */
+/*  end login */
+/* --------- */
 
-.footer-copywright ul a{
-  color: white;
-  text-decoration:none;
-  opacity:0.8;
-}
-
-.footer-copywright ul {
-  color: white;
-  text-decoration:none;
-  opacity:0.8;
-}
-.footer-body h3 {
-  padding-top: 20px;
-font-weight: bold;
-  color: white;
-}
 
 .menu-hover ul:hover{
   background: whitesmoke;

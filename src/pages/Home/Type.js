@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Belajar Investasi",
           "Mengatur Keuangan",
-          "Disini Tempatnya!!",
+          "Disini Tempatnya..",
         ],
         autoStart: true,
         loop: true,
