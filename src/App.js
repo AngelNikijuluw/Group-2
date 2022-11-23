@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Profile from "./pages/Profile/Profile";
 import HomeArtikel from "./pages/Artikel/Home_artikel";
 import HomeCourse from "./pages/Course/Home_Course";
-import MemberShip from "./pages/Profile/MemberShip";
+import MemberShip from "./pages/Profile/Membership";
 import RiwayatTransaksi from "./pages/Profile/RiwayatTransaksi";
 
 import {
