@@ -570,7 +570,7 @@ function Home2() {
                 src={require("../../image/icon2.png")}
                 style={{
                   width: "40px",
-                  marginLeft: "400px",
+                  marginLeft: "50px",
                   position: "absolute",
                   marginTop: "60px",
                   zIndex: "3",
