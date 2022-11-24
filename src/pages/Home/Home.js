@@ -50,7 +50,10 @@ function Home() {
                 </button>
               </Col>
 
-              <Col md={5} style={{ paddingBottom: 20, paddingLeft: 100 }}>
+              <Col
+                md={5}
+                style={{ paddingBottom: 20, paddingLeft: 100, paddingTop: 50 }}
+              >
                 <img
                   src={homeLogo}
                   alt="home pic"

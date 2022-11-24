@@ -242,8 +242,6 @@ button:focus {
   background-size: 100%;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
 }
 
 .home-login {
@@ -269,7 +267,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 8rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
